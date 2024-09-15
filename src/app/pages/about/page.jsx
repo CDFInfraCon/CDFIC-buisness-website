@@ -386,7 +386,7 @@ const About = () => {
           Ready to Start Your Next Project?
         </h2>
         <p className="text-lg mb-8 mx-2">
-          Get in touch with us and let's build the future together.
+          Get in touch with us and let&apos;s build the future together.
         </p>
         <a
           href="/pages/contact"
