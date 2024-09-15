@@ -7,6 +7,7 @@ import {
   BsFillHouseFill,
   BsFillTelephoneForwardFill,
 } from "react-icons/bs";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -134,10 +135,13 @@ const Contact = () => {
 
               {/* Barcode Image */}
               <div className="flex justify-center items-center mt-6">
-                <img
+                <Image
+                  className="object-cover"
                   src="/photos/scanner.jpeg"
                   alt="Barcode"
-                  className="h-40 w-40 object-cover"
+                  width={100} // You can adjust width
+                  height={100} // You can adjust height
+                  layout="responsive"
                 />
               </div>
             </div>

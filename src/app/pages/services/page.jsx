@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Services = () => {
   const projects = [
@@ -72,10 +72,13 @@ const Services = () => {
             {/* <!-- Card 1 --> */}
             <div className="p-2">
               <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="content"
+                <Image
                   className="object-cover object-center w-full h-48  transition-transform transform duration-300 ease-in-out hover:scale-110"
                   src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="content"
+                  width={100} // You can adjust width
+                  height={100} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
@@ -96,10 +99,13 @@ const Services = () => {
             {/* <!-- Card 2 --> */}
             <div className="p-2">
               <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="content"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
                   src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="content"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
@@ -120,10 +126,13 @@ const Services = () => {
             {/* <!-- Card 3 --> */}
             <div className="p-2">
               <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="content"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
                   src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="content"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
@@ -144,10 +153,13 @@ const Services = () => {
             {/* <!-- Card 4 --> */}
             <div className="p-2">
               <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="content"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
                   src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="content"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
@@ -206,10 +218,13 @@ const Services = () => {
                 whileHover={{ scale: 1.05, rotate: 1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <img
+                <Image
                   className="object-cover w-full h-full transform duration-700 backdrop-opacity-100 rounded-md"
                   src={project.image}
                   alt={project.title}
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 {/* "../../../../public/projects/Vadodra4.jpeg" */}
                 {/* <div style={{backgroundImage:}}></div> */}

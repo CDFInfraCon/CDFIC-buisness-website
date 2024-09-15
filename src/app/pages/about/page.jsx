@@ -1,5 +1,6 @@
 import React from "react";
 import CounterIncrement from "@/app/components/counter-increment/page";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -37,10 +38,13 @@ const About = () => {
       <section className="text-gray-600 body-font  bg-slate-100 rounded-t-3xl">
         <div className="container mx-auto  flex px-5 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
+            <Image
               className="rounded object-cover object-center w-full h-80"
-              alt="hero"
               src="https://static.wixstatic.com/media/c837a6_567d2b6e76584c129e68e1179ec80fa2~mv2.jpg/v1/fill/w_956,h_1053,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_567d2b6e76584c129e68e1179ec80fa2~mv2.jpg"
+              alt="hero"
+              width={600} // You can adjust width
+              height={400} // You can adjust height
+              layout="responsive"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -181,31 +185,43 @@ const About = () => {
             className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
           >
             <div id="logo1" className="flex items-center justify-center">
-              <img
+              <Image
+                className="h-32 w-32 object-contain"
                 src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Company 2"
-                className="h-32 w-32 object-contain"
+                width={600} // You can adjust width
+                height={400} // You can adjust height
+                layout="responsive"
               />
             </div>
             <div id="logo2" className="flex items-center justify-center">
-              <img
+              <Image
+                className="h-32 w-32 object-contain"
                 src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Company 2"
-                className="h-32 w-32 object-contain"
+                width={600} // You can adjust width
+                height={400} // You can adjust height
+                layout="responsive"
               />
             </div>
             <div id="logo3" className="flex items-center justify-center">
-              <img
+              <Image
+                className="h-32 w-32 object-contain"
                 src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Company 2"
-                className="h-32 w-32 object-contain"
+                width={600} // You can adjust width
+                height={400} // You can adjust height
+                layout="responsive"
               />
             </div>
             <div id="logo4" className="flex items-center justify-center">
-              <img
+              <Image
+                className="h-32 w-32 object-contain"
                 src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Company 2"
-                className="h-32 w-32 object-contain"
+                width={600} // You can adjust width
+                height={400} // You can adjust height
+                layout="responsive"
               />
             </div>
           </div>

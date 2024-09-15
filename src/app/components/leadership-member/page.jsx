@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
@@ -59,10 +60,13 @@ const LeadershipMember = () => {
             data-aos-offset="300"
             data-aos-duration="600"
           >
-            <img
+            <Image
               className="w-full h-full object-cover"
               src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-              alt=""
+              alt="Sample Image"
+              width={600} // You can adjust width
+              height={400} // You can adjust height
+              layout="responsive"
             />
             <div className="layer">
               <h1 className="text-white font-extrabold">

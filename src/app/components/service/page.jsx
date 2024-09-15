@@ -2,6 +2,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Service = () => {
   return (
@@ -23,10 +24,13 @@ const Service = () => {
             {/* Card 1 */}
             <div className="p-4">
               <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="Engineering"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
                   src="https://images.unsplash.com/photo-1632389449564-c590eef05d87?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Engineering"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-6">
                   <h2 className="text-2xl font-semibold text-gray-900 mb-3">
@@ -47,10 +51,13 @@ const Service = () => {
             {/* Card 2 */}
             <div className="p-4">
               <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="Urban Planning"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
                   src="https://images.unsplash.com/photo-1685799098734-ce4c9834623e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Urban Planning"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-6">
                   <h2 className="text-2xl font-semibold text-gray-900 mb-3">
@@ -71,10 +78,13 @@ const Service = () => {
             {/* Card 3 */}
             <div className="p-4">
               <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="Transport"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
                   src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29"
+                  alt="Transport"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-6">
                   <h2 className="text-2xl font-semibold text-gray-900 mb-3">
@@ -95,10 +105,13 @@ const Service = () => {
             {/* Card 4 */}
             <div className="p-4">
               <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <img
-                  alt="Energy"
+                <Image
                   className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
                   src="https://images.unsplash.com/photo-1701795785443-aa6878aaa5b6?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Energy"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
                 />
                 <div className="p-6">
                   <h2 className="text-2xl font-semibold text-gray-900 mb-3">
