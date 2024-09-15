@@ -63,7 +63,7 @@ const About = () => {
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Learn More
               </button>
-              {/* <a href="#" class="cta">
+              {/* <a href="#" className="cta">
                 <span>Learn More</span>
                 <svg width="13px" height="10px" viewBox="0 0 13 10">
                   <path d="M1,5 L11,5"></path>

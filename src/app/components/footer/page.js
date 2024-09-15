@@ -211,22 +211,22 @@ const Footer = () => {
             <ul className="social-cont">
               <li>
                 <a href="https://www.facebook.com/CDFIC/">
-                  <i class="fab fa-facebook-f icon"></i>
+                  <i className="fab fa-facebook-f icon"></i>
                 </a>
               </li>
               <li>
                 <a href="https://x.com/Cdficpl">
-                  <i class="fab fa-twitter icon"></i>
+                  <i className="fab fa-twitter icon"></i>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/company/35883383/admin/dashboard/">
-                  <i class="fab fa-linkedin-in icon"></i>
+                  <i className="fab fa-linkedin-in icon"></i>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/cdficpl/">
-                  <i class="fab fa-instagram icon"></i>
+                  <i className="fab fa-instagram icon"></i>
                 </a>
               </li>
             </ul>
