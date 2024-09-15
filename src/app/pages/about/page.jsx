@@ -240,12 +240,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <section
-        className="relative bg-cover bg-center h-64 md:h-72 lg:h-80"
-        style={{
-          backgroundImage: `url(&#39;https://images.unsplash.com/photo-1487132906645-8e0fbba067e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#39;)`,
-        }}
-      >
+      <section className="relative bg-cover bg-center h-64 md:h-72 lg:h-80 about-hero-back-image">
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex flex-col justify-center items-center p-4">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-center">
             Building Futures with Our Vision!
