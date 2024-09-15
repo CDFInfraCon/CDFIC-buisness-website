@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Header = () => {
   const [years, setYears] = useState(0);
@@ -450,14 +451,14 @@ const Header = () => {
             {/* <!-- Card 4 --> */}
             <div className="p-2">
               <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                       <Image
+                <Image
                   className="object-cover object-center w-full h-48"
                   src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="content"
-              width={600} // You can adjust width
-              height={400} // You can adjust height
-              layout="responsive"
-            />
+                  alt="content"
+                  width={600} // You can adjust width
+                  height={400} // You can adjust height
+                  layout="responsive"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
                     The New Frontier
