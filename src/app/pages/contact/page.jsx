@@ -11,23 +11,23 @@ import {
 const Contact = () => {
   return (
     <>
-      <div className="card">
-        <div className="card-content">
-          <h2 className="card-title">Something Awesome</h2>
-          <p className="card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
-            culpa.
-          </p>
-          <a href="#" className="button">
-            Learn More
-          </a>
+      <section
+        className="relative bg-cover bg-center h-64 md:h-72 lg:h-80 "
+        style={{
+          backgroundImage: `url("https://images.unsplash.com/photo-1487132906645-8e0fbba067e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+        }}
+      >
+        <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex flex-col justify-center items-center p-4">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-center">
+            Get in Touch
+          </h1>
         </div>
-      </div>
+      </section>
 
       <div className="container mx-auto p-6">
         <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* <!-- Contact Form --> */}
+          {/* Contact Form */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
             <form>
@@ -68,7 +68,7 @@ const Contact = () => {
                     Phone
                   </label>
                   <input
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700  leading-8 transition-colors duration-200 ease-in-out"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none leading-8 transition-colors duration-200 ease-in-out"
                     id="phone"
                     type="tel"
                     placeholder="Your Phone Number"
@@ -83,7 +83,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
-                  className="shadow appearance-none border rounded w-full border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 leading-8 transition-colors duration-200 ease-in-out"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 leading-8 transition-colors duration-200 ease-in-out"
                   id="message"
                   rows="5"
                   placeholder="Your Message"
@@ -100,40 +100,49 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* <!-- Contact Information --> */}
+          {/* Contact Information */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-            <div className="items-center mb-2 justify-around">
+            <div className="items-center mb-2">
               <div className="flex items-center gap-6">
-                <BsEnvelopeArrowDown className="text-4xl" />
+                <BsEnvelopeArrowDown className="text-3xl" />
                 <a
-                  href="mailto:contact@example.com"
-                  className="text-blue-500 hover:underline text-2xl"
+                  href="mailto:info.cdfic@gmail.com"
+                  className="text-blue-500 hover:underline"
                 >
-                  contact@example.com
+                  info.cdfic@gmail.com
                 </a>
               </div>
 
               <div className="flex items-center gap-6 mt-5">
-                <BsFillTelephoneForwardFill className="text-4xl" />
+                <BsFillTelephoneForwardFill className="text-3xl" />
                 <a
-                  href="tel:+1234567890"
-                  className="text-blue-500 hover:underline text-2xl"
+                  href="tel:+912093717499"
+                  className="text-blue-500 hover:underline"
                 >
-                  +1 234 567 890
+                  +91 2093717499 ,+91 2048630099
                 </a>
               </div>
+
               <div className="flex items-center gap-6 mt-5">
-                <BsFillHouseFill className="text-4xl" />
-                <p className="text-2xl">Aurangbad Maharashatra</p>
+                <BsFillHouseFill className="text-3xl" />
+                <p className="">
+                  A 401, Gokul Crest, Sakore Nagar Viman Nagar, Pune,
+                  Maharashtra, 4110146
+                </p>
+              </div>
+
+              {/* Barcode Image */}
+              <div className="flex justify-center items-center mt-6">
+                <img
+                  src="/photos/scanner.jpeg"
+                  alt="Barcode"
+                  className="h-40 w-40 object-cover"
+                />
               </div>
             </div>
 
-            <p className="mb-4">
-              Feel free to reach out to us via phone, email, or by filling out
-              the form. We look forward to hearing from you!
-            </p>
-            <h3 className="text-xl font-semibold mb-2">Business Hours</h3>
+            <h3 className="text-xl font-semibold mt-5">Business Hours</h3>
             <ul className="list-disc list-inside">
               <li>Monday - Friday: 9:00 AM to 5:00 PM</li>
               <li>Saturday: 10:00 AM to 2:00 PM</li>
@@ -141,6 +150,16 @@ const Contact = () => {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="h-96 mt-5 px-5 mb-2">
+        <iframe
+          className="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.682140582598!2d73.90535957599957!3d18.561705221760707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c16ea0e10881%3A0x95573d8f0b48803c!2sCDF%20INFRA%20CON%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1694776271470!5m2!1sen!2sin"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </>
   );

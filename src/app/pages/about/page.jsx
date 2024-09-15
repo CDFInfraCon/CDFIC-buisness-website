@@ -21,8 +21,21 @@ const About = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font  bg-slate-300 rounded-t-3xl">
-        <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
+      <section className="container mx-auto py-16 px-6">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold mb-4">Who We Are </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            At <strong>CDF Infra Con Pvt Ltd</strong>, we have been at the
+            forefront of road infrastructure development for over two decades.
+            Our mission is to deliver cutting-edge solutions in road
+            construction, ensuring safety, sustainability, and innovation in
+            every project.
+          </p>
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font  bg-slate-100 rounded-t-3xl">
+        <div className="container mx-auto  flex px-5 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="rounded object-cover object-center w-full h-80"
@@ -60,6 +73,100 @@ const About = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="bg-white py-16 mx-5">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8">Our Expertise</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <i className="fas fa-road"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Road Construction</h3>
+              <p className="text-gray-600">
+                We specialize in building durable and sustainable roads that
+                connect cities, towns, and rural areas.
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <i className="fas fa-road"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Bridges & Tunnels</h3>
+              <p className="text-gray-600">
+                Our team excels at constructing complex bridges and tunnels that
+                ensure smooth transit across challenging terrains.
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <i className="fas fa-city"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-4">
+                Urban Infrastructure
+              </h3>
+              <p className="text-gray-600">
+                We provide comprehensive solutions for urban infrastructure,
+                including highways, expressways, and public transport systems.
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <i className="fas fa-water"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Drainage Systems</h3>
+              <p className="text-gray-600">
+                Our expertise extends to designing and building efficient
+                drainage systems for sustainable road infrastructure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8">Our Journey</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="p-6 bg-white rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold mb-2">2001</h3>
+              <p className="text-gray-600">
+                Established CDF Infra Con Pvt Ltd and began our first major
+                highway construction project.
+              </p>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold mb-2">2010</h3>
+              <p className="text-gray-600">
+                Expanded into bridge and tunnel construction, completing the
+                landmark Sakore Nagar Bridge project.
+              </p>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold mb-2">2023</h3>
+              <p className="text-gray-600">
+                Celebrating over 20 years of excellence in road infrastructure,
+                with over 500 projects completed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-500 py-16 text-center text-white">
+        <h2 className="text-4xl font-bold mb-4">
+          Ready to Start Your Next Project?
+        </h2>
+        <p className="text-lg mb-8 mx-2">
+          Get in touch with us and let's build the future together.
+        </p>
+        <a
+          href="/pages/contact"
+          className="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-lg font-bold hover:bg-gray-200 transition"
+        >
+          Contact Us
+        </a>
       </section>
 
       <CounterIncrement />

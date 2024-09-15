@@ -6,6 +6,7 @@ import CompanyAward from "./components/company-award/page";
 import Services from "./pages/services/page";
 import Footer from "./components/footer/page";
 import Hero from "./components/first-page/page";
+import Service from "./components/service/page";
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
       <LeadershipMember />
       <CounterIncrement />
       <CompanyAward />
-      <Services />
+      <Service />
     </>
   );
 }
