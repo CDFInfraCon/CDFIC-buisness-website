@@ -1,5 +1,11 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "./pages/Header";
+// import Navbar from "./components/navbar/page";
+import LeadershipMember from "./components/leadership-member/page";
+import Footer from "./components/footer/page";
+import Navbar from "./components/Navbar";
+import AOSInitializer from "./AOSInitializer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +17,32 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <title>CDF Infra Con Pvt. Ltd.</title>
+        <meta name="description" content="Your custom description" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        />
+      </head>
+
+      <body className={inter.className}>
+        {/* <Header /> */}
+        <Navbar />
+        {/* <LeadershipMember /> */}
+        <AOSInitializer />
+
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
