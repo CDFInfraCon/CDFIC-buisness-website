@@ -296,9 +296,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const navbarClasses = `${styles.navbar} sticky top-0 z-50 ${
-    scrolled ? styles.scrolled : ""
-  } ${visible ? styles.visible : styles.hidden}`;
+  const navbarClasses = `${styles.navbar} sticky top-0 z-50 ${scrolled ? styles.scrolled : ""
+    } ${visible ? styles.visible : styles.hidden}`;
 
   return (
     <nav className={navbarClasses}>
@@ -310,14 +309,17 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-6">
               <Link href="/" className={styles.navLink}>
                 Home
               </Link>
               <Link href="/pages/about" className={styles.navLink}>
                 About
               </Link>
-              <div className={styles.dropdown}>
+              <Link href="/pages/projects" className={styles.navLink}>
+                Projects
+              </Link>
+              {/* <div className={styles.dropdown}>
                 <span className={styles.navLink}>Projects</span>
                 <div className={styles.dropdownContent}>
                   {dummyData.projects.map((category, index) => (
@@ -339,15 +341,19 @@ const Navbar = () => {
                     </div>
                   ))}
                 </div>
-              </div>
-              <Link href="/pages/contact" className={styles.navLink}>
-                Contact
-              </Link>
+              </div> */}
+
               <Link href="/pages/services" className={styles.navLink}>
                 Services
               </Link>
+              <Link href="/pages/ourEquipment" className={styles.navLink}>
+                Equipment
+              </Link>
               <Link href="/pages/carrers" className={styles.navLink}>
                 Careers
+              </Link>
+              <Link href="/pages/contact" className={styles.navLink}>
+                Contact
               </Link>
             </div>
           </div>
@@ -360,7 +366,7 @@ const Navbar = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  stroke="#ff9f61"
                   aria-hidden="true"
                 >
                   <path
@@ -376,7 +382,7 @@ const Navbar = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  stroke="#ff9f61"
                   aria-hidden="true"
                 >
                   <path
@@ -396,10 +402,13 @@ const Navbar = () => {
           <Link href="/" className={styles.mobileNavLink}>
             Home
           </Link>
-          <Link href="/about" className={styles.mobileNavLink}>
+          <Link href="/pages/about" className={styles.mobileNavLink}>
             About
           </Link>
-          <div className={styles.mobileDropdown}>
+          <Link href="/pages/projects" className={styles.navLink}>
+            Projects
+          </Link>
+          {/* <div className={styles.mobileDropdown}>
             <span className={styles.mobileNavLink}>Projects</span>
             <div className={styles.mobileDropdownContent}>
               {dummyData.projects.map((category, index) => (
@@ -419,8 +428,15 @@ const Navbar = () => {
                 </div>
               ))}
             </div>
-          </div>
-          <Link href="/contact" className={styles.mobileNavLink}>
+          </div> */}
+
+          <Link href="/pages/services" className={styles.mobileNavLink}>
+            Services
+          </Link>
+          <Link href="/pages/carrers" className={styles.mobileNavLink}>
+            Careers
+          </Link>
+          <Link href="/pages/contact" className={styles.mobileNavLink}>
             Contact
           </Link>
         </div>
@@ -430,3 +446,78 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// components/Navbar.js
+// "use client";
+// import React, { useState, useEffect } from "react";
+// import Link from "next/link";
+// import styles from "../../../styles/Navbar.module.css";
+
+// const Navbar = () => {
+//   const [scrolled, setScrolled] = useState(false);
+//   const [visible, setVisible] = useState(true);
+//   const [lastScrollTop, setLastScrollTop] = useState(0);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const scrollTop =
+//         window.pageYOffset || document.documentElement.scrollTop;
+//       const scrollThreshold = 100;
+
+//       if (scrollTop > scrollThreshold) {
+//         setScrolled(true);
+//       } else {
+//         setScrolled(false);
+//       }
+
+//       if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+//         setVisible(false);
+//       } else {
+//         setVisible(true);
+//       }
+
+//       setLastScrollTop(scrollTop);
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, [lastScrollTop]);
+
+//   return (
+//     <nav
+//       className={`${styles.navbar} ${scrolled ? styles.scrolled : ""} ${
+//         visible ? styles.visible : styles.hidden
+//       }`}
+//     >
+//       <div className={styles.navbarContent}>
+//         <Link href="/" className={styles.logo}>
+//           Logo
+//         </Link>
+//         <ul className={styles.navLinks}>
+//           <li className={styles.navItem}>
+//             <Link href="/" className={styles.navLink}>
+//               Home
+//             </Link>
+//           </li>
+//           <li className={styles.navItem}>
+//             <Link href="/about" className={styles.navLink}>
+//               About
+//             </Link>
+//           </li>
+//           <li className={styles.navItem}>
+//             <Link href="/services" className={styles.navLink}>
+//               Services
+//             </Link>
+//           </li>
+//           <li className={styles.navItem}>
+//             <Link href="/contact" className={styles.navLink}>
+//               Contact
+//             </Link>
+//           </li>
+//         </ul>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;

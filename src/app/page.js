@@ -2,11 +2,14 @@ import Image from "next/image";
 import Navbar from "./components/navbar/page";
 import LeadershipMember from "./components/leadership-member/page";
 import CounterIncrement from "./components/counter-increment/page";
-import CompanyAward from "./components/company-award/page";
 import Services from "./pages/services/page";
 import Footer from "./components/footer/page";
 import Hero from "./components/first-page/page";
 import Service from "./components/service/page";
+import OurClients from "./components/our-clients/page";
+import OurTeam from "./components/our-team/page";
+import Testimonials from "./components/testimonials/page";
+import AboutusContent from "./components/aboutContent/page";
 
 export default function Home() {
   return (
@@ -48,10 +51,13 @@ export default function Home() {
         </div>
       </div> */}
       <Hero />
+      <AboutusContent />
       <LeadershipMember />
       <CounterIncrement />
-      <CompanyAward />
+      <OurTeam />
       <Service />
+      <Testimonials />
+      <OurClients />
     </>
   );
 }

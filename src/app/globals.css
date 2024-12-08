@@ -16,7 +16,7 @@
 
 @layer components {
     .demo {
-        background-color: red;
+        background-color: #ff9f61;
         text-align: center;
     }
 
@@ -60,7 +60,7 @@
     .layer {
         width: 100%;
         height: 0%;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #ff9f61);
         border-radius: 10px;
         position: absolute;
         left: 0;
@@ -84,7 +84,7 @@
 
     .layer div {
         margin-top: 20px;
-        color: #ff004f;
+        color: #ff9f61;
         text-decoration: none;
         font-size: 21px;
         line-height: 60px;
@@ -230,7 +230,7 @@
 
 
   .appColor{
-    background-color: #ffb933;
+    background-color: #ffa15e;
   }
   
   .home-header{
@@ -329,7 +329,7 @@
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid #ffb933;
+    border: 3px solid #ffa15e;
     z-index: 1;
   }
   .social-cont li a .icon {
@@ -405,7 +405,7 @@
   
   
   .social-link-p{
-    color: "#ffb933";
+    color: "#ffa15e";
     border: 2px solid  #914F1E;
     /* border: 2px solid  #81562b; */
     border-radius: 5px;
@@ -441,7 +441,7 @@ cursor: pointer;
   .NavigationMenuList {
     display: flex;
     justify-content: center;
-    background-color: #ffb933;
+    background-color: #ffa15e;
     padding: 4px;
     border-radius: 6px;
     list-style: none;
@@ -474,7 +474,7 @@ cursor: pointer;
     align-items: center;
     justify-content: space-between;
     gap: 2px;
-    border: 2px solid blue;
+    border: 2px solid #ff9f61;
   }
   
   .NavigationMenuLink {
@@ -820,5 +820,8 @@ cursor: pointer;
 
 
 .about-hero-back-image{
-  background-image: url("https://images.unsplash.com/photo-1487132906645-8e0fbba067e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("../../public/projects/Khed3.jpeg");
+}
+.services-back-image{
+  background-image: url("../../public/projects/Vadodra4.jpeg");
 }

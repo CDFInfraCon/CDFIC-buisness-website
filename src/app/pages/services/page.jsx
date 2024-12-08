@@ -2,6 +2,50 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
+import KhedImage from "../../../../public/projects/khed3.jpeg";
+import KhedImage2 from "../../../../public/projects/khed4.jpeg";
+import VadodraImage from "../../../../public/projects/Vadodra4.jpeg";
+import AiiE from "../../../../public/services/AiiE.jpeg";
+import Link from "next/link";
+
+const services = [
+  {
+    title: "Authority Engineer/ Independent Engineer",
+    description:
+      "In India, road projects under the Public-Private Partnership (PPP) framework typically operate according to the Model Concession Agreement. This agreement outlines the roles, responsibilities, and obligations of the various parties involved, including the Authority and the Concessionaire. Within this context, the Independent Engineer plays a critical role in ensuring the timely and effective execution of projects. Appointed jointly by the Authority and the Concessionaire, the Independent Engineer serves as a neutral party, responsible for monitoring the progress of the project, ensuring compliance with standards, and facilitating communication between stakeholders.",
+    image: AiiE,
+  },
+  {
+    title: "DPR",
+    description:
+      "CDFICPL’s planning team consists of professionals in architecture, engineering, and design, offering innovative solutions that empower decision-makers at all levels. Our planning services include Master Planning, Infrastructure Planning, Environmental Compliance Studies, and Area Development Plans We provide comprehensive design solutions for sectors like transportation, energy, urban development, and industrial infrastructure. Our engineers focus on cost-effective, time-sensitive designs that ensure smooth construction, compliance, and high-quality results.CDFICPL combines global resources and proven expertise to deliver world-class projects, using advanced engineering methods and efficient communication systems. Our engineering services range from Preliminary and Detailed Engineering to EPC Contracting Assistance and Design-Build Construction.",
+    image: "",
+  },
+  {
+    title: "Supervision Consultant Operation & Maintenance",
+    description:
+      "To ensure that roads are maintained in optimal condition, Authorities engage concessionaires who are responsible for carrying out maintenance activities according to the prescribed standards. This includes routine maintenance, repairs, and ensuring overall road safety and functionality. To further support this process and guarantee adherence to the maintenance objectives, the Authorities also appoint Independent Engineers or Authority Engineers. These professionals act as representatives of the Authority, overseeing and monitoring the concessionaire's work to ensure compliance with the specified standards and contractual obligations.In the financial year 2015-16, the National Highways Authority of India (NHAI) made a significant budgetary provision of Rs. 1,300 crores in grants specifically for the maintenance and repair of National Highways. This allocation was aimed at enhancing road quality, reducing accidents, and ensuring a smooth flow of traffic. By January 2016, NHAI had further increased the allocation to Rs. 2,200 crores for the maintenance of National Highways across various States and Union Territories. This financial commitment underscores the importance placed on maintaining the national road network in excellent condition, ensuring safety and efficiency for all road users.",
+    image: KhedImage2,
+  },
+  {
+    title: "Safety Consultant",
+    description:
+      "We develop infrastructure projects that support transportation and enhance connectivity in communities.",
+    image: "",
+  },
+  {
+    title: "Project Managemnt",
+    description:
+      "Our experts provide consultation on best practices in road infrastructure and project management.",
+    image: "",
+  },
+  {
+    title: "Design",
+    description:
+      "We specialize in designing pavements that are not only durable but also environmentally friendly.",
+    image: "",
+  },
+];
 
 const Services = () => {
   const projects = [
@@ -10,18 +54,14 @@ const Services = () => {
       title: "Vadodara Mumbai Expressway",
       description:
         "Independent Engineer services for Supervision of Construction of Eight lane access controlled Expressway from Km 43.000 to Km 69.800 (Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway) in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana",
-      image:
-        "https://plus.unsplash.com/premium_photo-1668852917781-aa894ed23ac2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image paths
-
-      //   image: require("../../../../public/projects/Vadodra4.jpeg"),
+      image: VadodraImage,
     },
     {
       id: 2,
       title: "O & M Khed-Sinner",
       description:
         "Consultancy Services for Supervision Consultant (SC) for 4/6L of Khed (Km 42.00) to Sinnar (Km 177.00) of NH - 60 (Old NH - 50) in the State of Maharashtra",
-      image:
-        "https://plus.unsplash.com/premium_photo-1668852917781-aa894ed23ac2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image paths
+      image: KhedImage,
     },
     {
       id: 3,
@@ -36,10 +76,10 @@ const Services = () => {
   return (
     <>
       <section
-        className="relative bg-cover bg-center h-64 md:h-72 lg:h-80"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1487132906645-8e0fbba067e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
-        }}
+        className="relative bg-cover bg-center h-64 md:h-72 lg:h-80 services-back-image"
+        // style={{
+        //   backgroundImage: `url('../../../../public/projects/khed3.jpeg')`,
+        // }}
       >
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex flex-col justify-center items-center p-4">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-center">
@@ -52,134 +92,50 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col mt-2">
-            <div className="  text-center py-6 mb-2">
-              <h1 className=" text-black font-extrabold title-font text-4xl mb-2 sm:mb-0">
-                OUR SERVICES
-              </h1>
-              <h1 className="font-medium title-font text-2xl mb-2 sm:mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Veniam!
-              </h1>
-              {/* <p className="sm:w-3/5 leading-relaxed text-base ">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p> */}
-            </div>
+      <div className="bg-gray-400 py-16 ">
+        <div className="container mx-auto px-5">
+          {/* Hero Section */}
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+              Our Services
+            </h1>
+            <p className="text-lg text-gray-600 mb-12">
+              We offer a wide range of road infrastructure services to meet your
+              needs.
+            </p>
           </div>
 
-          {/* <!-- Responsive Grid for Cards --> */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-5 ">
-            {/* <!-- Card 1 --> */}
-            <div className="p-2">
-              <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+          {/* Services Section */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-8 ">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white shadow-lg rounded-sm overflow-hidden transform transition-transform duration-300 hover:scale-105"
+              >
                 <Image
-                  className="object-cover object-center w-full h-48  transition-transform transform duration-300 ease-in-out hover:scale-110"
-                  src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="content"
-                  width={100} // You can adjust width
-                  height={100} // You can adjust height
-                  layout="responsive"
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-48 object-cover"
                 />
-                <div className="p-4">
-                  <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
-                    Shooting Stars
-                  </h2>
-                  <p className="text-base leading-relaxed mb-3">
-                    Swag shoivdigoitch literally meditation subway tile tumblr
-                    cold-pressed. Gastropub street art beard dreamcatcher
-                    neutra, ethical XOXO lumbersexual.
-                  </p>
-                  <p className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-3 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2 cursor-pointer" />
-                  </p>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 ">{service.description}</p>
+                  <div className="mt-5">
+                    <Link
+                      href="/learn-more"
+                      className=" mt-4 bg-orange-500 text-white px-4 py-2 rounded-sm shadow-md hover:bg-orange-600 transition duration-300 transform hover:-translate-y-1"
+                    >
+                      Learn More
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* <!-- Card 2 --> */}
-            <div className="p-2">
-              <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
-                  src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="content"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-4">
-                  <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
-                    The Catalyzer
-                  </h2>
-                  <p className="text-base leading-relaxed mb-3">
-                    Swag shoivdigoitch literally meditation subway tile tumblr
-                    cold-pressed. Gastropub street art beard dreamcatcher
-                    neutra, ethical XOXO lumbersexual.
-                  </p>
-                  <p className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-3 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2 cursor-pointer" />
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Card 3 --> */}
-            <div className="p-2">
-              <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
-                  src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="content"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-4">
-                  <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
-                    The 400 Blows
-                  </h2>
-                  <p className="text-base leading-relaxed mb-3">
-                    Swag shoivdigoitch literally meditation subway tile tumblr
-                    cold-pressed. Gastropub street art beard dreamcatcher
-                    neutra, ethical XOXO lumbersexual.
-                  </p>
-                  <p className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-3 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2 cursor-pointer" />
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Card 4 --> */}
-            <div className="p-2">
-              <div className="rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform duration-300 ease-in-out hover:scale-110"
-                  src="https://plus.unsplash.com/premium_photo-1664547606209-fb31ec979c85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="content"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-4">
-                  <h2 className="text-xl font-medium title-font text-gray-900 mb-3">
-                    The New Frontier
-                  </h2>
-                  <p className="text-base leading-relaxed mb-3">
-                    Swag shoivdigoitch literally meditation subway tile tumblr
-                    cold-pressed. Gastropub street art beard dreamcatcher
-                    neutra, ethical XOXO lumbersexual.
-                  </p>
-                  <p className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-3 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2 cursor-pointer" />
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
-      </section>
+      </div>
 
       {/* <div className="py-12 bg-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -220,14 +176,14 @@ const Services = () => {
               >
                 <Image
                   className="object-cover w-full h-full transform duration-700 backdrop-opacity-100 rounded-md"
+                  // src={KhedImage}
                   src={project.image}
                   alt={project.title}
                   width={600} // You can adjust width
                   height={400} // You can adjust height
                   layout="responsive"
                 />
-                {/* "../../../../public/projects/Vadodra4.jpeg" */}
-                {/* <div style={{backgroundImage:}}></div> */}
+
                 <div className="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                 <div className="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
                   <div className="absolute w-full flex place-content-center px-3">

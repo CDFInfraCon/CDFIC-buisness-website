@@ -94,68 +94,39 @@ const CounterIncrement = () => {
 
   return (
     <>
-      <div className="py-16 bg-gray-800 mt-10">
-        <div className="container mx-auto ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-5">
-            {/* Card 1 */}
-            <div
-              className="bg-indigo-500 text-white p-6 rounded-lg shadow-md flex items-center justify-between transform transition-transform duration-300 ease-in-out hover:translate-y-[-10px] hover:shadow-xl"
-              data-aos="zoom-in"
-              // data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                <div className="text-3xl font-bold">{years}</div>
-                <div className="text-sm">Glorious Years</div>
-              </div>
-              <FaAward className="text-7xl bg-blue-600 p-2 rounded-full" />
+      <div className="py-16  text-[#1A1A37]">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+            Our Experience by the Numbers
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Years in Business */}
+            <div>
+              <h3 className="text-5xl font-bold">{years}+</h3>
+              <p className="mt-2">Glorious Years</p>
             </div>
 
-            {/* Card 2 */}
-            <div
-              className="bg-blue-500 text-white p-6 rounded-lg shadow-md flex items-center justify-between transform transition-transform duration-300 ease-in-out hover:translate-y-[-10px] hover:shadow-xl"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                <div className="text-3xl font-bold">{projects}</div>
-                <div className="text-sm">Successful Projects</div>
-              </div>
-              <FaProjectDiagram className="text-7xl bg-blue-600 p-2 rounded-full" />
+            {/* Successful Projects */}
+            <div>
+              <h3 className="text-5xl font-bold">{projects}+</h3>
+              <p className="mt-2">Completed Projects</p>
             </div>
 
-            {/* Card 3 */}
-            <div
-              className="bg-green-500 text-white p-6 rounded-lg shadow-md flex items-center justify-between transform transition-transform duration-300 ease-in-out hover:translate-y-[-10px] hover:shadow-xl"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                <div className="text-3xl font-bold">{team}</div>
-                <div className="text-sm">Strong Team</div>
-              </div>
-              <FaUsers className="text-7xl bg-blue-600 p-2 rounded-full" />
+            {/* Strong Team */}
+            <div>
+              <h3 className="text-5xl font-bold">{team}+</h3>
+              <p className="mt-2">Team Members</p>
             </div>
 
-            {/* Card 4 */}
-            <div
-              className="bg-orange-500 text-white p-6 rounded-lg shadow-md flex items-center justify-between transform transition-transform duration-300 ease-in-out hover:translate-y-[-10px] hover:shadow-xl"
-              data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                <div className="text-3xl font-bold">{offices}</div>
-                <div className="text-sm">Offices Nationwide</div>
-              </div>
-              <FaBuilding className="text-7xl bg-blue-600 p-2 rounded-full" />
+            {/* Offices Nationwide */}
+            <div>
+              <h3 className="text-5xl font-bold">{offices}+</h3>
+              <p className="mt-2">Offices Nationwide</p>
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 };

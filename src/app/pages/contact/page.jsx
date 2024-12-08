@@ -118,10 +118,16 @@ const Contact = () => {
               <div className="flex items-center gap-6 mt-5">
                 <BsFillTelephoneForwardFill className="text-3xl" />
                 <a
-                  href="tel:+912093717499"
+                  href="phone:+919371749999"
                   className="text-blue-500 hover:underline"
                 >
-                  +91 2093717499 ,+91 2048630099
+                  +91 9371749999
+                </a>
+                <a
+                  href="tel:+912048630099"
+                  className="text-blue-500 hover:underline"
+                >
+                  +91 2048630099
                 </a>
               </div>
 
@@ -129,7 +135,7 @@ const Contact = () => {
                 <BsFillHouseFill className="text-3xl" />
                 <p className="">
                   A 401, Gokul Crest, Sakore Nagar Viman Nagar, Pune,
-                  Maharashtra, 4110146
+                  Maharashtra, 411014
                 </p>
               </div>
 
@@ -139,18 +145,20 @@ const Contact = () => {
                   className="object-cover"
                   src="/photos/scanner.jpeg"
                   alt="Barcode"
-                  width={100} // You can adjust width
-                  height={100} // You can adjust height
-                  layout="responsive"
+                  width={200} // You can adjust width
+                  height={20} // You can adjust height
+                  layout="fixed"
                 />
               </div>
             </div>
 
             <h3 className="text-xl font-semibold mt-5">Business Hours</h3>
             <ul className="list-disc list-inside">
-              <li>Monday - Friday: 9:00 AM to 5:00 PM</li>
-              <li>Saturday: 10:00 AM to 2:00 PM</li>
-              <li>Sunday: Closed</li>
+              <li>Monday - Saturday: 10:00 AM to 7:00 PM</li>
+              <li>Third saturday: Week off</li>
+              <li>
+                Sunday: <b className="text-red-600">Closed</b>
+              </li>
             </ul>
           </div>
         </div>

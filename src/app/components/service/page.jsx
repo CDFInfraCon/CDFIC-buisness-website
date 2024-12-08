@@ -1,138 +1,106 @@
 "use client";
-import React from "react";
-import { FaArrowRight } from "react-icons/fa";
-import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
-const Service = () => {
+const services = [
+  {
+    name: "Authority Engineer/ Independent Engineer",
+    description: "Manufacturer of Wooden Pallet",
+    image:
+      "https://img.freepik.com/free-photo/waibaidu-bridge-shanghai_1359-943.jpg?t=st=1727329898~exp=1727333498~hmac=918b9f793e7c5554c3f38e568a89e6b39d5b0fb8347c9f371c6e401bd7920a4b&w=900",
+  },
+  {
+    name: "DPR  ",
+    description: "Supplier of Pine Wood Pallet",
+    image:
+      "https://img.freepik.com/free-photo/long-shot-people-running-together-outside_23-2149033508.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
+  },
+  {
+    name: "Supervision Consultant Operation & Maintenance",
+    description: "Heat treated wooden pallet",
+    image:
+      "https://img.freepik.com/free-photo/aerial-views-with-cars-streets_23-2148959679.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
+  },
+  {
+    name: "Safety Consultant",
+    description: "Euro standard pallets",
+    image:
+      "https://img.freepik.com/free-photo/new-recently-built-highway-brcko-district-bosnia-herzegovina_181624-4020.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
+  },
+  {
+    name: "Project Managemnt",
+    description: "Custom Wooden Boxes",
+    image:
+      "https://img.freepik.com/free-photo/new-recently-built-highway-brcko-district-bosnia-herzegovina_181624-13276.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
+  },
+  {
+    name: "Design",
+    description: "High quality plastic packaging",
+    image:
+      "https://img.freepik.com/free-photo/way-rural-transport-metropolitan-outdoor_1112-977.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
+  },
+];
+
+const ServicesPage = () => {
   return (
-    <>
-      <section className="text-gray-600 body-font bg-gray-50">
-        <div className="container px-5 py-20 mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="text-black font-extrabold text-4xl mb-2">
-              OUR INFRASTRUCTURE SERVICES
-            </h1>
-            <p className="text-lg font-medium text-gray-500">
-              Providing innovative and reliable infrastructure solutions
-              tailored to meet modern needs.
-            </p>
-          </div>
-
-          {/* Grid for Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
-            {/* Card 1 */}
-            <div className="p-4">
-              <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
-                  src="https://images.unsplash.com/photo-1632389449564-c590eef05d87?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Engineering"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                    Engineering & Design
-                  </h2>
-                  <p className="text-base text-gray-700 mb-3">
-                    Our team delivers innovative and sustainable engineering
-                    solutions for infrastructure projects.
-                  </p>
-                  <p className="text-indigo-600 inline-flex items-center mt-4 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-2 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2" />
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card 2 */}
-            <div className="p-4">
-              <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
-                  src="https://images.unsplash.com/photo-1685799098734-ce4c9834623e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Urban Planning"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                    Urban Development
-                  </h2>
-                  <p className="text-base text-gray-700 mb-3">
-                    From concept to , we shape cities with forward-thinking
-                    urban and infrastructure solutions.
-                  </p>
-                  <p className="text-indigo-600 inline-flex items-center mt-4 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-2 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2" />
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card 3 */}
-            <div className="p-4">
-              <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
-                  src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29"
-                  alt="Transport"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                    Transportation Systems
-                  </h2>
-                  <p className="text-base text-gray-700 mb-3">
-                    We design and implement transportation infrastructure to
-                    streamline movement across .
-                  </p>
-                  <p className="text-indigo-600 inline-flex items-center mt-4 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-2 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2" />
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card 4 */}
-            <div className="p-4">
-              <div className="h-full rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <Image
-                  className="object-cover object-center w-full h-48 transition-transform transform hover:scale-110"
-                  src="https://images.unsplash.com/photo-1701795785443-aa6878aaa5b6?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Energy"
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
-                  layout="responsive"
-                />
-                <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                    Energy & Utilities
-                  </h2>
-                  <p className="text-base text-gray-700 mb-3">
-                    Leading the way in sustainable energy solutions, we build
-                    resilient utility infrastructures Best solution team.
-                  </p>
-                  <p className="text-indigo-600 inline-flex items-center mt-4 cursor-pointer">
-                    Learn More
-                    <FaArrowRight className="ml-2 text-lg transition-transform duration-300 ease-in-out transform hover:translate-x-2" />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section className="py-16 bg-gray-50">
+      <div className="container mx-auto px-6 md:px-12 lg:px-5">
+        {/* Page Header */}
+        <div className="text-left mb-14">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-[#1A1A37]  mb-6">
+            Our Services
+          </h2>
+          <p className="text-lg lg:text-xl text-[#1A1A37] max-w-2xl mx-auto">
+            We offer a range of professional services to meet your
+            infrastructure needs.
+          </p>
         </div>
-      </section>
-    </>
+
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="relative group bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105"
+            >
+              {/* Image Section */}
+              <div className="relative h-56 md:h-60  overflow-hidden">
+                <Image
+                  src={service.image}
+                  alt={service.name}
+                  fill
+                  className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+
+              {/* Hover Content Sliding from Bottom */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="p-6 absolute inset-x-0 bottom-0 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                  <h3 className="text-2xl font-bold text-white mb-1">
+                    {service.name}
+                  </h3>
+                  <p className="text-base text-gray-200 leading-relaxed">
+                    {service.description}
+                  </p>
+                  <div></div>
+                  <Link href="/pages/services" className="mt-4 bg-orange-500 text-white px-2 py-1 rounded hover:bg-orange-600">
+                    Lern More
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service Name and Description Always Visible */}
+              <div className="p-2  bg-[#1A1A37]  ">
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {service.name}
+                </h3>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default Service;
+export default ServicesPage;

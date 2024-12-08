@@ -1,5 +1,5 @@
 /* .navbar {
-    background-color: #ffb933;
+    background-color: #ffa15e;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     opacity: 10;
@@ -7,18 +7,22 @@
    */
 
    .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffb933;
+    /* background-color: #ffa15e; */
+    background-color: transparent;
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1000;
+        padding: 0.8rem 1rem;
   }
   
   .navbar.scrolled {
-    background-color: #ffb933;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #0f2852;
+    /* background-color: #ffa15e; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   }
   
   .navbar.visible {
@@ -62,9 +66,9 @@
     text-decoration: none;
   }
   .logoContent{
-    height: 3rem;
-    width: 7rem;
-    background: url("../assets/logos/logo3.png");
+    height: 10rem;
+    width: 10rem;
+    background: url("../assets/logos/newLogo.png");
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../assets/logos/logo.png"); */
     background-position: center;
@@ -75,7 +79,6 @@
   
   .navLink {
     position: relative;
-    padding: 0.5rem 1rem;
     font-size: 0.8rem;
     font-weight: 500;
     color: #FFFFFF;
@@ -85,12 +88,13 @@
   }
   
   .navLink:hover {
-    color: #3498db;
-    /* color: #ffb933; */
+    color: #ff9f61;
+    /* color: #ffa15e; */
   }
 
   .scrolled .navLink {
-    color: #333;
+    color: #FFFFFF;
+    /* color: #333; */
   }
   
   .navLink::after {
@@ -100,7 +104,7 @@
     height: 2px;
     bottom: 0;
     left: 50%;
-    background-color: #3498db;
+    background-color: #ff9f61;
     transition: width 0.3s ease, left 0.3s ease;
   }
   
@@ -165,7 +169,7 @@
   }
   
   .dropdownItem:hover {
-    color: #3498db;
+    color: #ff9f61;
   }
   
   .mobileMenuButton {
@@ -198,7 +202,7 @@
   .mobileNavLink:hover,
   .mobileNavLink.active {
     background-color: #f8f8f8;
-    color: #3498db;
+    color:#ff9f61;
   }
   
   .mobileDropdown {
@@ -234,7 +238,7 @@
   }
   
   .mobileDropdownItem:hover {
-    color: #3498db;
+    color: #ff9f61;
   }
 
   .dropdownContent::-webkit-scrollbar {

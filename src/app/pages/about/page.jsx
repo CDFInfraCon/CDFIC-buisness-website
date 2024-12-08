@@ -236,11 +236,12 @@
 import React from "react";
 import CounterIncrement from "@/app/components/counter-increment/page";
 import Image from "next/image";
+import OurClients from "@/app/components/our-clients/page";
 
 const About = () => {
   return (
     <>
-      <section className="relative bg-cover bg-center h-64 md:h-72 lg:h-80 about-hero-back-image">
+      <section className="relative bg-cover bg-center h-72 md:h-72 lg:h-80 about-hero-back-image">
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex flex-col justify-center items-center p-4">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white text-center">
             Building Futures with Our Vision!
@@ -248,19 +249,6 @@ const About = () => {
           <p className="text-base md:text-lg lg:text-xl text-white mt-4 text-center">
             Swag should literally meditation subway tile tumblr cold-pressed.
             Gastropub street art.
-          </p>
-        </div>
-      </section>
-
-      <section className="container mx-auto py-16 px-6">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold mb-4">Who We Are</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            At <strong>CDF Infra Con Pvt Ltd</strong>, we have been at the
-            forefront of road infrastructure development for over two decades.
-            Our mission is to deliver cutting-edge solutions in road
-            construction, ensuring safety, sustainability, and innovation in
-            every project.
           </p>
         </div>
       </section>
@@ -352,34 +340,20 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Our Journey</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-2">2001</h3>
-              <p className="text-gray-600">
-                Established CDF Infra Con Pvt Ltd and began our first major
-                highway construction project.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-2">2010</h3>
-              <p className="text-gray-600">
-                Expanded into bridge and tunnel construction, completing the
-                landmark Sakore Nagar Bridge project.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-2">2023</h3>
-              <p className="text-gray-600">
-                Celebrating over 20 years of excellence in road infrastructure,
-                with over 500 projects completed.
-              </p>
-            </div>
-          </div>
+      <section className="container mx-auto py-16 px-6">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold mb-4">Who We Are</h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            At <strong>CDF Infra Con Pvt Ltd</strong>, we have been at the
+            forefront of road infrastructure development for over two decades.
+            Our mission is to deliver cutting-edge solutions in road
+            construction, ensuring safety, sustainability, and innovation in
+            every project.
+          </p>
         </div>
       </section>
+
+      <CounterIncrement />
 
       <section className="bg-gray-500 py-16 text-center text-white">
         <h2 className="text-4xl font-bold mb-4">
@@ -396,60 +370,7 @@ const About = () => {
         </a>
       </section>
 
-      <CounterIncrement />
-
-      <div className="bg-gray-100 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-3xl font-extrabold text-gray-900">
-            OUR HAPPY CLIENTS
-          </h2>
-          <div
-            id="logo-container"
-            className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-          >
-            <div id="logo1" className="flex items-center justify-center">
-              <Image
-                className="h-32 w-32 object-contain"
-                src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Company 2"
-                width={600} // You can adjust width
-                height={400} // You can adjust height
-                layout="responsive"
-              />
-            </div>
-            <div id="logo2" className="flex items-center justify-center">
-              <Image
-                className="h-32 w-32 object-contain"
-                src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Company 2"
-                width={600} // You can adjust width
-                height={400} // You can adjust height
-                layout="responsive"
-              />
-            </div>
-            <div id="logo3" className="flex items-center justify-center">
-              <Image
-                className="h-32 w-32 object-contain"
-                src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Company 2"
-                width={600} // You can adjust width
-                height={400} // You can adjust height
-                layout="responsive"
-              />
-            </div>
-            <div id="logo4" className="flex items-center justify-center">
-              <Image
-                className="h-32 w-32 object-contain"
-                src="https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Company 2"
-                width={600} // You can adjust width
-                height={400} // You can adjust height
-                layout="responsive"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <OurClients />
     </>
   );
 };
