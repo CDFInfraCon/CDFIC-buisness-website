@@ -155,7 +155,7 @@ const Contact = () => {
             <h3 className="text-xl font-semibold mt-5">Business Hours</h3>
             <ul className="list-disc list-inside">
               <li>Monday - Saturday: 10:00 AM to 7:00 PM</li>
-              <li>Third saturday: Week off</li>
+              {/* <li>Third saturday: Week off</li> */}
               <li>
                 Sunday: <b className="text-red-600">Closed</b>
               </li>

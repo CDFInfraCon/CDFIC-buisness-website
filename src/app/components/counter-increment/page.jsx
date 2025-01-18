@@ -13,11 +13,16 @@ const CounterIncrement = () => {
   const [projects, setProjects] = useState(0);
   const [team, setTeam] = useState(0);
   const [offices, setOffices] = useState(0);
+
   useEffect(() => {
+    // Calculate Glorious Years dynamically
+    const currentYear = new Date().getFullYear();
+    const gloriousYears = currentYear - 2016;
+
     // Increment for "Glorious Years"
     const incrementYears = () => {
       let start = 0;
-      const end = 24;
+      const end = gloriousYears;
       const duration = 2000;
       const incrementTime = duration / end;
 
@@ -126,7 +131,6 @@ const CounterIncrement = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

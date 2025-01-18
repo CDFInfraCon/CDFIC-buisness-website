@@ -27,9 +27,9 @@ const Footer = () => {
               4110146
             </p>
             <br />
-            <p className="mt-2 text-sm text-white">+91 20 93717 49999</p>
+            <p className="mt-2 text-sm text-white">+91 93717 49999</p>
             <br />
-            <p className="mt-2 text-sm text-white">+91 20 4863 0099</p>
+            <p className="mt-2 text-sm text-white">+91 20486 30099</p>
             <br />
             <p className="mt-2 text-sm text-white">info.cdfic@gmail.com</p>
           </div>
@@ -59,10 +59,10 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="footer-link">
-                  <a className=" ">First Link</a>
+                  <a className=" ">Road Infrastructure</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Second Link</a>
+                  <a className=" ">Highways, Bridges & Tunnels</a>
                 </li>
                 <li className="footer-link">
                   <a className=" ">Third Link</a>
@@ -78,16 +78,23 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="footer-link">
-                  <a className=" ">First Link</a>
+                  <a className=" ">Vadodara Mumbai Expressway PKG-16</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Second Link</a>
+                  <a className=" ">O & M Khed-Sinner</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Third Link</a>
+                  <a className=" ">O & M Ane-Mal-Kharwandi</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Fourth Link</a>
+                  <a className=" ">
+                    Authority Engineer of White Topping (WT) Malshej Ghat
+                  </a>
+                </li>
+                <li className="footer-link">
+                  <a className=" ">
+                    Authority Engineer of White Topping (WT) Khed Sinnar
+                  </a>
                 </li>
               </nav>
             </div>

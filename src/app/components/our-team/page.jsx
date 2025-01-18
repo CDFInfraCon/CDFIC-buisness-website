@@ -14,6 +14,10 @@ import {
 import KhedImage from "../../../../public/projects/khed3.jpeg";
 import VadodraImage from "../../../../public/projects/Vadodra4.jpeg";
 import NagarImage from "../../../../public/ongoing/Nagar4.jpeg";
+import AETWTAhemadnagar2 from "../../../../public/AETWTAhemadnagar/2.jpeg";
+import AETWTAhemadnagar3 from "../../../../public/AETWTAhemadnagar/3.jpeg";
+import AETWTAhemadnagar6 from "../../../../public/AETWTAhemadnagar/6.jpeg";
+import DilipPalve from "../../../../public/ourLeaders/dilipPalwe.jpg";
 
 const OurTeams = [
   {
@@ -21,8 +25,7 @@ const OurTeams = [
     leaderName: "Mr. Dilip Palve",
     position1: "Resident cum Highway Engineer",
     position2: "Former executive Engineer (PWD)",
-    image:
-      "https://images.unsplash.com/photo-1660798027105-5da8ad164e27?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: DilipPalve,
     message1: "Welcome to CDF Infra Con Pvt. Ltd.",
     message2:
       "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what’s possible in the world of infrastructure.",
@@ -62,38 +65,38 @@ const OurTeams = [
       "boundaries of innovation and excellence in the infrastructure sector. Visit our website to learn more about our projects and services.",
     message5: null,
   },
-  {
-    slug: 4,
-    leaderName: "Mr. Shivshankar Telamani",
-    position1: "Highway Maintenance cum Resident Engineer",
-    position2: null,
-    image:
-      "https://plus.unsplash.com/premium_photo-1661559063958-968c8f1928e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    message1: "Welcome to CDF Infra Con Pvt. Ltd.",
-    message2:
-      "As the Resident cum Highway Engineer at  CDF Infra Con, I am proud to be part of a team that is at the forefront of shaping India's infrastructure. Our commitment to excellence in engineering consultancy and services ensures that each project we undertake meets the highest standards of quality and efficiency.",
-    message3:
-      "With our extensive experience and innovative approach, we are dedicated to delivering infrastructure solutions that not only meet the needs of today but also pave the way for a sustainable and prosperous future. I invite you to explore our website at www.cdfic.com to learn more about our projects, our team, and our vision for the future.",
-    message4:
-      "Thank you for your interest in CDF Infra Con Pvt Ltd. We look forward to collaborating with you.",
-    message5: null,
-  },
-  {
-    slug: 5,
-    leaderName: "Mr. Naushad Khan",
-    position1: "Bridge Engineer",
-    position2: null,
-    image:
-      "https://images.unsplash.com/photo-1631306039548-beb1a80fe8ab?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    message1: "Welcome to CDF Infra Con Pvt. Ltd.",
-    message2:
-      "As the Bridge Engineer at CDF Infra Con, I am proud to be part of a team that is at the forefront of shaping India's infrastructure. Our commitment to excellence in engineering consultancy and services ensures that each project we undertake meets the highest standards of quality and efficiency. With our extensive experience and innovative approach, we are dedicated to delivering infrastructure solutions that not only meet the needs of today but also pave the way for a sustainable and prosperous future. I invite you to explore our website at www.cdfic.com to learn more about our projects, our team, and our vision for the future.",
-    message3:
-      "Thank you for your interest in CDF Infra Con Pvt Ltd. We look forward to collaborating with you.",
+  // {
+  //   slug: 4,
+  //   leaderName: "Mr. Shivshankar Telamani",
+  //   position1: "Highway Maintenance cum Resident Engineer",
+  //   position2: null,
+  //   image:
+  //     "https://plus.unsplash.com/premium_photo-1661559063958-968c8f1928e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   message1: "Welcome to CDF Infra Con Pvt. Ltd.",
+  //   message2:
+  //     "As the Resident cum Highway Engineer at  CDF Infra Con, I am proud to be part of a team that is at the forefront of shaping India's infrastructure. Our commitment to excellence in engineering consultancy and services ensures that each project we undertake meets the highest standards of quality and efficiency.",
+  //   message3:
+  //     "With our extensive experience and innovative approach, we are dedicated to delivering infrastructure solutions that not only meet the needs of today but also pave the way for a sustainable and prosperous future. I invite you to explore our website at www.cdfic.com to learn more about our projects, our team, and our vision for the future.",
+  //   message4:
+  //     "Thank you for your interest in CDF Infra Con Pvt Ltd. We look forward to collaborating with you.",
+  //   message5: null,
+  // },
+  // {
+  //   slug: 5,
+  //   leaderName: "Mr. Naushad Khan",
+  //   position1: "Bridge Engineer",
+  //   position2: null,
+  //   image:
+  //     "https://images.unsplash.com/photo-1631306039548-beb1a80fe8ab?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   message1: "Welcome to CDF Infra Con Pvt. Ltd.",
+  //   message2:
+  //     "As the Bridge Engineer at CDF Infra Con, I am proud to be part of a team that is at the forefront of shaping India's infrastructure. Our commitment to excellence in engineering consultancy and services ensures that each project we undertake meets the highest standards of quality and efficiency. With our extensive experience and innovative approach, we are dedicated to delivering infrastructure solutions that not only meet the needs of today but also pave the way for a sustainable and prosperous future. I invite you to explore our website at www.cdfic.com to learn more about our projects, our team, and our vision for the future.",
+  //   message3:
+  //     "Thank you for your interest in CDF Infra Con Pvt Ltd. We look forward to collaborating with you.",
 
-    message4: null,
-    message5: null,
-  },
+  //   message4: null,
+  //   message5: null,
+  // },
   {
     slug: 6,
     leaderName: "Mr. Dilip Shinde",
@@ -133,6 +136,28 @@ const projects = [
     description:
       "Consultancy Services of Supervision Consultant (SC) during O&M phase from Malshej Ghat to Ane Ghat Km 101/000 to Km 161/570, from end of Ane Ghat to Start of Ahmednagar Bypass Km 161/570 to Km 211/000 & from Kharwandi Kasar to Junction of NH-211 Km 284/000 to Km 337/000 of two lane with paved shoulder on NH-61 in the state of Maharashtra.",
     image: NagarImage,
+  },
+  {
+    id: 4,
+    title: "Authority Engineer of design and construction using (TWT)",
+    description:
+      "Including routine maintenance and balance work of the Khed–Sinnar section from km. 42.00 to km. 179.946 (Total Length: 137.946) of NH-60 in Maharashtra as a standalone project on EPC Mode.",
+    image: AETWTAhemadnagar2,
+  },
+  {
+    id: 5,
+    title: "Authority Engineer of White Topping (WT)",
+    description:
+      "Along with the reconstruction of 20 culverts for NH-61 from Km 101.00 to Km 211.00 and Km 287.00 to Km 337.00 in Maharashtra.",
+    image: AETWTAhemadnagar3,
+  },
+  {
+    id: 6,
+    title:
+      "Consultancy service for feasibility study and preparation of a (DPR)",
+    description:
+      "For improvement and upgradation of the newly declared National Highway, including the existing Ghazipur-Jamaniya-Saiyadraja road of NH-97 in Uttar Pradesh.",
+    image: AETWTAhemadnagar6,
   },
   // Add more projects as needed
 ];
@@ -189,7 +214,6 @@ const OurTeam = () => {
   return (
     <>
       <section className="py-16 bg-[#1A1A37] text-white">
-        {" "}
         {/* Dark blue background */}
         <div className="container mx-auto px-6 lg:px-5 overflow-hidden relative">
           <h2 className="text-4xl font-bold mb-12 text-center text-orange-500">
@@ -244,11 +268,10 @@ const OurTeam = () => {
               >
                 <Image
                   className="object-cover w-full h-full transform duration-700 backdrop-opacity-100 rounded-md"
-                  // src={KhedImage}
                   src={project.image}
                   alt={project.title}
-                  width={600} // You can adjust width
-                  height={400} // You can adjust height
+                  width={600}
+                  height={400}
                   layout="responsive"
                 />
 

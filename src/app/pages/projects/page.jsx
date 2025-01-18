@@ -4,20 +4,22 @@ import ProjectTabs from "@/app/components/project-tabs/page";
 
 const ProjectsPage = () => {
   return (
-    <>
-      <section className="relative bg-cover bg-center  md:h-72 lg:h-80 bg-gray-400  ">
+    <div>
+      <section className="relative bg-cover bg-center min-h-[200px] sm:h-64 md:h-72 lg:h-80 bg-gray-400">
         <ImageCarousel />
       </section>
 
-      <div className="h-auto bg-gray-100 py-20 mt-20">
-        <div className="container mx-auto">
-          <h1 className="text-4xl font-bold text-left px-4 text-gray-800">
-
-            <ProjectTabs />
+      <div className="min-h-screen bg-gray-100  sm:py-12 md:py-16 lg:py-20 mt-8 sm:mt-12 md:mt-16 lg:mt-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+            Our Projects
           </h1>
+          <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-10 opacity-100">
+            <ProjectTabs />
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
