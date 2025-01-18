@@ -11,7 +11,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-import KhedImage from "../../../../public/projects/khed3.jpeg";
+import Khed3 from "../../../public/projects/khed3.jpeg";
 import VadodraImage from "../../../../public/projects/Vadodra4.jpeg";
 import NagarImage from "../../../../public/ongoing/Nagar4.jpeg";
 import AETWTAhemadnagar2 from "../../../../public/AETWTAhemadnagar/2.jpeg";
@@ -128,7 +128,7 @@ const projects = [
     title: "O & M Khed-Sinner",
     description:
       "Consultancy Services for Supervision Consultant (SC) for 4/6L of Khed (Km 42.00) to Sinnar (Km 177.00) of NH - 60 (Old NH - 50) in the State of Maharashtra",
-    image: KhedImage,
+    image: Khed3,
   },
   {
     id: 3,
