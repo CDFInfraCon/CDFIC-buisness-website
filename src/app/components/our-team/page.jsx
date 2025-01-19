@@ -11,7 +11,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-import Khed1 from "../../../public/projects/Khed1.jpeg";
+import Khed1 from "../../../../public/projects/Khed1.jpeg";
 import VadodraImage from "../../../../public/projects/Vadodra4.jpeg";
 import NagarImage from "../../../../public/ongoing/Nagar4.jpeg";
 import AETWTAhemadnagar2 from "../../../../public/AETWTAhemadnagar/2.jpeg";
@@ -28,9 +28,9 @@ const OurTeams = [
     image: DilipPalve,
     message1: "Welcome to CDF Infra Con Pvt. Ltd.",
     message2:
-      "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what’s possible in the world of infrastructure.",
+      "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what's possible in the world of infrastructure.",
     message3:
-      "Our team is passionate about innovation, continually setting new benchmarks to ensure that we deliver the highest quality solutions to our clients. We are committed to excellence, driven by the vision of crafting the future of India’s infrastructure.",
+      "Our team is passionate about innovation, continually setting new benchmarks to ensure that we deliver the highest quality solutions to our clients. We are committed to excellence, driven by the vision of crafting the future of India's infrastructure.",
     message4:
       "Thank you for visiting our website. We look forward to collaborating with you to create enduring and impactful infrastructure solutions.",
     message5: null,
@@ -106,9 +106,9 @@ const OurTeams = [
       "https://images.unsplash.com/photo-1605464765759-55272601601e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     message1: "Welcome to CDF Infra Con Pvt. Ltd.",
     message2:
-      "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what’s possible in the world of infrastructure.",
+      "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what's possible in the world of infrastructure.",
     message3:
-      "Our team is passionate about innovation, continually setting new benchmarks to ensure that we deliver the highest quality solutions to our clients. We are committed to excellence, driven by the vision of crafting the future of India’s infrastructure.",
+      "Our team is passionate about innovation, continually setting new benchmarks to ensure that we deliver the highest quality solutions to our clients. We are committed to excellence, driven by the vision of crafting the future of India's infrastructure.",
     message4:
       "Thank you for visiting our website. We look forward to collaborating with you to create enduring and impactful infrastructure solutions.",
     message5: null,
