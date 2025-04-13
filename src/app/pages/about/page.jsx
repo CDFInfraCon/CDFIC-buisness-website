@@ -238,6 +238,7 @@ import CounterIncrement from "@/app/components/counter-increment/page";
 import Image from "next/image";
 import OurClients from "@/app/components/our-clients/page";
 
+// component
 const About = () => {
   return (
     <>
