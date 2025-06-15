@@ -10,7 +10,7 @@ console.log("pathpathpathpath",path)
   return (
     <>
   
-  {path !== "/pages/projects" && (
+  {/* {path !== "/pages/projects" && ( */}
         <footer className="text-white body-font footer-container">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -103,21 +103,21 @@ console.log("pathpathpathpath",path)
               </h2>
               <nav className="list-none mb-10">
                 <li className="footer-link">
-                  <a href={`pages/projects`} className=" ">Vadodara Mumbai Expressway PKG-16</a>
+                  <a href={`/pages/projects`} className=" ">Vadodara Mumbai Expressway PKG-16</a>
                 </li>
                 <li className="footer-link">
-                  <a href={`pages/projects`} className=" ">O & M Khed-Sinner</a>
+                  <a href={`/pages/projects`} className=" ">O & M Khed-Sinner</a>
                 </li>
                 <li className="footer-link" >
-                  <a href={`pages/projects`} className=" ">O & M Ane-Mal-Kharwandi</a>
+                  <a href={`/pages/projects`} className=" ">O & M Ane-Mal-Kharwandi</a>
                 </li>
                 <li className="footer-link">
-                  <a href={`pages/projects`} className=" ">
+                  <a href={`/pages/projects`} className=" ">
                     Authority Engineer of White Topping (WT) Malshej Ghat
                   </a>
                 </li>
                 <li className="footer-link">
-                  <a href={`pages/projects`} className=" ">
+                  <a href={`/pages/projects`} className=" ">
                     Authority Engineer of White Topping (WT) Khed Sinnar
                   </a>
                 </li>
@@ -233,7 +233,7 @@ console.log("pathpathpathpath",path)
           </div>
         </div> */}
       </footer>
-)} 
+{/* )}  */}
       <div className="" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="container mx-auto px-5 py-4 flex align-middle  flex-wrap flex-row justify-between sm:flex-row">
           <p
