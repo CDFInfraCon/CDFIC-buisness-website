@@ -1,7 +1,3 @@
 {
-  "/pages/carrers/page": "app/pages/carrers/page.js",
-  "/pages/services/page": "app/pages/services/page.js",
-  "/pages/ourEquipment/page": "app/pages/ourEquipment/page.js",
-  "/pages/contact/page": "app/pages/contact/page.js",
   "/page": "app/page.js"
 }
