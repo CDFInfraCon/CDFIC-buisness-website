@@ -16,7 +16,10 @@ const Hero = () => {
 
   const videos = [
     "/videos/khedCrop.mp4",
-    "/videos/herosectionvideo1.mp4"
+    // "/videos/herosectionvideo1.mp4",
+    "/videos/herosection_new_part1.mp4",
+    "/videos/herosection_new_part1.mp4",
+    "/videos/herosection_new_part1.mp4"
   ];
 
   const sliderSettings = {
