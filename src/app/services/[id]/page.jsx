@@ -67,7 +67,7 @@ export default function ServiceDetails({ params }) {
             <FaArrowLeft className="mr-2" /> Back to Services
           </Link>
         </div>
-        <div className="mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+        <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
           {/* Header Section */}
           <div className="from-blue-700 to-blue-900 px-8 py-16 text-white" style={{background: "#0f2852"}}>
             <div className="flex items-center gap-6 mb-8">

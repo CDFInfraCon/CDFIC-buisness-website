@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
 import React from "react";
@@ -49,11 +49,11 @@ const OurTeams = [
     position: "Managing Director",
     image: Amer1Image,
     message1:
-      "We are at the forefront of defining India's infrastructure landscape.",
+      "Mr. Amer C. Fakir is a highly respected and successful leader who has played a key role in the overall development and growth of the company. With his strong leadership qualities, clear vision, and unwavering dedication, he has handled the company with remarkable efficiency and care. His ability to make strategic decisions, inspire his team, and maintain high standards of professionalism has earned him great respect across all levels of the organization.",
     message2:
-      "Our dedicated team works tirelessly to innovate and set new standards.",
-    message3: "Thank you for visiting our website.",
-    message4: "We look forward to partnering with you.",
+      "Under his expert guidance, the company has not only achieved major milestones but has also cultivated a culture of excellence, integrity, and accountability. He believes in leading by example, and this principle is reflected in his everyday actions. Whether it is client meetings, critical site visits, resolving on-ground challenges, or personally reviewing technical design and drawings—Mr. Amer C. Fakir remains deeply involved in every crucial aspect of the company’s functioning.",
+    message3: "He is a leader who does not hesitate to take responsibility. Be it field-level tasks or high-level strategy planning, he approaches each duty with dedication and attention to detail. His hands-on approach and strong sense of ownership make him an anchor for the team and a driving force behind the company’s continuous progress.",
+    message4: "It is under his leadership that the company stands where it does today—with strength, confidence, and a vision for the future. His work ethic, humility, and unwavering commitment continue to inspire everyone around him, setting a powerful example of what true leadership looks like.",
     message5: null,
   },
   {
@@ -62,11 +62,11 @@ const OurTeams = [
     position: "Managing Director",
     image: AmmanFakirImage,
     message1:
-      "We are proud to be at the forefront of shaping India's infrastructure landscape.",
+      "Amman Sir:- He is a highly accomplished and successful lawyer, known for his deep legal expertise and strategic thinking. As the Managing Director, he plays a pivotal role in driving the company’s growth and ensuring its long-term success. His exceptional ability to analyze complex legal matters and offer practical solutions has significantly contributed to strengthening the company’s foundation.",
     message2:
-      "Our dedicated team is driven by a relentless passion for innovation.",
-    message3: "Thank you for visiting our website.",
-    message4: "We look forward to partnering with you.",
+      "Beyond his legal acumen, Amman Sir possesses outstanding leadership skills. He leads by example, inspires his team with clarity and confidence, and consistently encourages innovation and integrity within the organization. His dedication, vision, and commitment to excellence make him a cornerstone of the company’s continued progress.",
+    message3: null,
+    message4: null,
     message5: null,
   },
 ];
@@ -202,3 +202,12 @@ const LeadershipMemberInfo = ({ params }) => {
 };
 
 export default LeadershipMemberInfo;
+
+
+export async function generateStaticParams() {
+  return [
+    { slug: "11" },
+    { slug: "12" },
+    { slug: "13" }
+  ];
+}
