@@ -16,8 +16,7 @@ const Hero = () => {
 
   const videos = [
     "/videos/khedCrop.mp4",
-    "/videos/Vmpack.mp4",
-    "/videos/Vmpack2.mp4",
+    "/videos/herosectionvideo1.mp4"
   ];
 
   const sliderSettings = {
@@ -78,7 +77,7 @@ const Hero = () => {
         <div className={videoContainerClass}>
           <video
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full object-cover"
-            src={videos[0]}
+            src={videos[1]}
             type="video/mp4"
             autoPlay
             muted
@@ -127,7 +126,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className={contentClass} style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)',borderRadius: '10px', padding: '60px 20px' }}>
+        <div className={contentClass} >
           {/* <div href="/" className={styles.logo}>
             <div className={styles.logoContent}></div>
           </div> */}
