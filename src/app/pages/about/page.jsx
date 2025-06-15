@@ -237,6 +237,7 @@ import React from "react";
 import CounterIncrement from "@/app/components/counter-increment/page";
 import Image from "next/image";
 import OurClients from "@/app/components/our-clients/page";
+import AboutImage from "../../../../public/about/AboutUs.jpg";
 
 // component
 const About = () => {
@@ -259,7 +260,7 @@ const About = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               className="rounded object-cover object-center w-full h-80"
-              src="https://static.wixstatic.com/media/c837a6_567d2b6e76584c129e68e1179ec80fa2~mv2.jpg/v1/fill/w_956,h_1053,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_567d2b6e76584c129e68e1179ec80fa2~mv2.jpg"
+              src={AboutImage}
               alt="hero"
               width={600}
               height={400}

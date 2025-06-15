@@ -66,9 +66,9 @@
     text-decoration: none;
   }
   .logoContent{
-    height: 10rem;
+    height: 5rem;
     width: 10rem;
-    background: url("../assets/logos/newLogo.png");
+    background: url("../assets/logos/CDFLOGO.png");
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../assets/logos/logo.png"); */
     background-position: center;

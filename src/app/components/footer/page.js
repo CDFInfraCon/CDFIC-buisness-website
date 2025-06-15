@@ -21,7 +21,9 @@ const Footer = () => {
               </svg>
               <span className="ml-3 text-xl">CDFIC</span>
             </a> */}
-            <h1>CDF Infra Con Pvt. Ltd.</h1>
+            <h1 className="font-bold text-2xl font-sans">
+              CDF Infra Con Pvt. Ltd.
+            </h1>
             <p className="mt-2 text-sm text-white">
               A 401, Gokul Crest, Sakore Nagar Viman Nagar, Pune, Maharashtra,
               4110146
@@ -32,6 +34,8 @@ const Footer = () => {
             <p className="mt-2 text-sm text-white">+91 20486 30099</p>
             <br />
             <p className="mt-2 text-sm text-white">info.cdfic@gmail.com</p>
+            <br />
+            <p className="mt-2 text-sm text-white">hr.cdficpl@gmail.com</p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -46,11 +50,18 @@ const Footer = () => {
                   <a className=" ">Project Management consultant</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Third</a>
+                  <a className=" ">Arbitration </a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Fourth Link</a>
+                  <a className=" ">DPR</a>
                 </li>
+                <li className="footer-link">
+                  <a className=" ">Operation & Maintenance</a>
+                </li>
+                <li className="footer-link">
+                  <a className=" ">Safety Consultant</a>
+                </li>
+                
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -65,10 +76,10 @@ const Footer = () => {
                   <a className=" ">Highways, Bridges & Tunnels</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Third Link</a>
+                  <a className=" ">Design Consultant</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Fourth Link</a>
+                  <a className=" ">Road Safety Consultant</a>
                 </li>
               </nav>
             </div>
@@ -99,23 +110,32 @@ const Footer = () => {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-50 tracking-widest text-lg mb-3">
-                COMUNITY
+              <h2 className="title-font font-medium text-gray-50 tracking-widest text-lg mb-3 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#ff9f61]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-.659 1.591l-7.5 7.5a2.25 2.25 0 01-3.182 0l-7.5-7.5A2.25 2.25 0 012.25 6.993V6.75" />
+                </svg>
+                Quick Inquiry
               </h2>
-              <nav className="list-none mb-10">
-                <li className="footer-link">
-                  <a className=" ">First Link</a>
-                </li>
-                <li className="footer-link">
-                  <a className=" ">Second Link</a>
-                </li>
-                <li className="footer-link">
-                  <a className=" ">Third Link</a>
-                </li>
-                <li className="footer-link">
-                  <a className=" ">Fourth Link</a>
-                </li>
-              </nav>
+              <form className="bg-white/10 rounded-lg p-5 flex flex-col gap-4">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="px-4 py-3 rounded-md bg-white/80 text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#ff9f61] placeholder-gray-500 transition-all duration-200 border border-transparent focus:border-[#ff9f61]"
+                  required
+                />
+                <input
+                  type="tel"
+                  placeholder="Phone Number"
+                  className="px-4 py-3 rounded-md bg-white/80 text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#ff9f61] placeholder-gray-500 transition-all duration-200 border border-transparent focus:border-[#ff9f61]"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="w-full bg-[#ff9f61] hover:bg-[#ff7e1d] text-white font-bold py-3 rounded-md transition-colors duration-200 tracking-widest mt-2 shadow-none pl-4"
+                >
+                  SUBMIT
+                </button>
+              </form>
             </div>
           </div>
         </div>

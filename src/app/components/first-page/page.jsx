@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import styles from "../../../../styles/Navbar.module.css";
 
 const Hero = () => {
   const [mounted, setMounted] = useState(false);
@@ -127,14 +128,20 @@ const Hero = () => {
 
       <div className="absolute inset-0 flex items-center justify-center">
         <div className={contentClass}>
+          <div href="/" className={styles.logo}>
+            <div className={styles.logoContent}></div>
+          </div>
           <h1 className={`${headingClass} animate__animated animate__bounce`}>
-            Engineering for
+            {/* Engineering for */}
+            Built for Generations
           </h1>
-          <h1 className={headingClass}>sustainable</h1>
-          <h1 className={headingClass}>development</h1>
+          {/* <h1 className={headingClass}>sustainable</h1>
+          <h1 className={headingClass}>development</h1> */}
           <p className={paragraphClass}>
-            We engineer infrastructure keeping in mind about the future. We
-            build today thinking about tomorrow.
+            {/* We engineer infrastructure keeping in mind about the future. We
+            build today thinking about tomorrow. */}
+            Our infrastructure is more than construction — it’s a legacy of
+            sustainability and care.
           </p>
         </div>
       </div>

@@ -131,7 +131,7 @@ const Equipment = () => {
                 <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-4">
                   {attraction.description}
                 </p>
-                <Link href="/contact">
+                {/* <Link href="/contact">
                   <motion.button
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -139,7 +139,7 @@ const Equipment = () => {
                   >
                     Learn more
                   </motion.button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}

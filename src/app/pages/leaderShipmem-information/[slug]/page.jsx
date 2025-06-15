@@ -4,10 +4,78 @@ import Image from "next/image";
 import React from "react";
 import { FaAward, FaCheckCircle, FaTrophy } from "react-icons/fa";
 import { services } from "./data";
+import CDFakirImage from "../../../../../public/leaders/cdFakir.jpeg";
+import Amer1Image from "../../../../../public/leaders/Amer.jpg";
+// import AmmanFakirImage from "../../../../public/leaders/AmmanFakir.jpeg";
+import AmmanFakirImage from "../../../../../public/leaders/AmmanFakir.jpeg"; // Adjust the path as necessary
+
+const OurTeams = [
+  // {
+  //   slug: 6,
+  //   leaderName: "Mr. Dilip Shinde",
+  //   position1: "Team Leader cum Highway Engineer",
+  //   position2: null,
+  //   image:
+  //     "https://images.unsplash.com/photo-1605464765759-55272601601e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   message1: "Welcome to CDF Infra Con Pvt. Ltd.",
+  //   message2:
+  //     "At CDF Infra Con, we stand at the forefront of shaping India's infrastructure landscape with our unparalleled Engineering Consultancy and Services. With extensive experience and a portfolio of successful projects, we are dedicated to pushing the boundaries of what's possible in the world of infrastructure.",
+  //   message3:
+  //     "Our team is passionate about innovation, continually setting new benchmarks to ensure that we deliver the highest quality solutions to our clients. We are committed to excellence, driven by the vision of crafting the future of India's infrastructure.",
+  //   message4:
+  //     "Thank you for visiting our website. We look forward to collaborating with you to create enduring and impactful infrastructure solutions.",
+  //   message5: null,
+  // },
+
+  {
+    slug: 11,
+    leaderName: "Mr. C. D. Fakir",
+    position: "The Chairman",
+    image: CDFakirImage,
+    message1:
+      "Our Chairman, a former Chief Engineer of PWD Maharashtra, brings decades of expertise in engineering and infrastructure. After a distinguished government career, he now leads multiple arbitration cases, securing major wins with his sharp judgment and technical excellence. Known for his integrity, leadership, and strategic approach, he drives the company's commitment to quality, transparency, and growth.",
+    message2:
+      "He is a member of Technical Advisory Committee (TAC) for Versova Bandra  Sea Link Project formed by MSRDC Mumbai (Year 2011-2014), Chairman of Institution of Engineers (India) Aurangabad Local Centre for two years. (2000-2002), Member of Disaster Management Committee formulated by IRC. (2007-2009) iii) Member of Steering Committee formulated by MSRDC (Maharashtra State), Expert Member, on Works Committee of Pravara Medical Trust Loni Dist: Ahmednagar since Year 2012, Indian Council of Arbitration Membership (MICA) No.IL/ICA/5179 Yr 2013, he Was Empanelled as  Arbitrators with IRC: 17(1) /2013, Life Member of Indian Road Congress (IRC):  (LM-8347) Yr. 1979, Empanelled as Inspecting Authority (IA) with Maulana Azad Education Foundation MAEF New Delhi with effect from January 2014, Fellow of the Institution of Engineers (India) FIE-F015922-7 Yr.2001, Member of Indian  Institution of Br. Engineering (IIBE) LF-1028 Yr. 1998, Indian Building Congress Life Member: LM-1608 Yr.2002, Indian Society of Wind Engineering     (LM-250) Yr.2002, Quality  Circle Forum of India Life Member QCFI (049903001016) Yr. 1999.",
+    message3: null,
+    // "Every day, we challenge ourselves to redefine standards, innovate, and deliver the best to our clients.",
+    message4: null,
+    // "As we move forward, I encourage each one of you to embrace this spirit of innovation and strive for greatness.",
+    // message5: "Thank you for being a part of this incredible journey.",
+    message5: null,
+  },
+  {
+    slug: 12,
+    leaderName: "Mr. Amer C Fakir",
+    position: "Managing Director",
+    image: Amer1Image,
+    message1:
+      "We are at the forefront of defining India's infrastructure landscape.",
+    message2:
+      "Our dedicated team works tirelessly to innovate and set new standards.",
+    message3: "Thank you for visiting our website.",
+    message4: "We look forward to partnering with you.",
+    message5: null,
+  },
+  {
+    slug: 13,
+    leaderName: "Mr. Amman C Fakir",
+    position: "Managing Director",
+    image: AmmanFakirImage,
+    message1:
+      "We are proud to be at the forefront of shaping India's infrastructure landscape.",
+    message2:
+      "Our dedicated team is driven by a relentless passion for innovation.",
+    message3: "Thank you for visiting our website.",
+    message4: "We look forward to partnering with you.",
+    message5: null,
+  },
+];
 
 const LeadershipMemberInfo = ({ params }) => {
   const { slug } = params;
-  const service = services.find((s) => s.slug === parseInt(slug));
+
+  const service = OurTeams.find((s) => s.slug === parseInt(slug));
+  console.log("services", services);
 
   if (!service) {
     return (

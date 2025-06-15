@@ -345,7 +345,7 @@ const OurProjects = [
   },
   {
     status: "Ongoing",
-    name: "Independent Engineer services for Supervision of Construction of Eight lane access-controlled Expressway from Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana.",
+    name: "Independent Engineer services for Supervision of Construction of 8 lane access-controlled Expressway from Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana.",
     length: "24.6 km.",
     client: "NHAI",
     category: "Authority Engineer/ Independent Engineer",

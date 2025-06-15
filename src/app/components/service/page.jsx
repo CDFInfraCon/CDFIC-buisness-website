@@ -10,7 +10,7 @@ const services = [
       "https://img.freepik.com/free-photo/waibaidu-bridge-shanghai_1359-943.jpg?t=st=1727329898~exp=1727333498~hmac=918b9f793e7c5554c3f38e568a89e6b39d5b0fb8347c9f371c6e401bd7920a4b&w=900",
   },
   {
-    name: "DPR  ",
+    name: "DPR Consultant",
     description: "Supplier of Pine Wood Pallet",
     image:
       "https://img.freepik.com/free-photo/long-shot-people-running-together-outside_23-2149033508.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
@@ -22,19 +22,19 @@ const services = [
       "https://img.freepik.com/free-photo/aerial-views-with-cars-streets_23-2148959679.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
   },
   {
-    name: "Safety Consultant",
+    name: "Road Safety Consultant",
     description: "Euro standard pallets",
     image:
       "https://img.freepik.com/free-photo/new-recently-built-highway-brcko-district-bosnia-herzegovina_181624-4020.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
   },
   {
-    name: "Project Managemnt",
+    name: "Project Management Consultant",
     description: "Custom Wooden Boxes",
     image:
       "https://img.freepik.com/free-photo/new-recently-built-highway-brcko-district-bosnia-herzegovina_181624-13276.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
   },
   {
-    name: "Design",
+    name: "Proof Consultant",
     description: "High quality plastic packaging",
     image:
       "https://img.freepik.com/free-photo/way-rural-transport-metropolitan-outdoor_1112-977.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
@@ -83,8 +83,11 @@ const ServicesPage = () => {
                     {service.description}
                   </p>
                   <div></div>
-                  <Link href="/pages/services" className="mt-4 bg-orange-500 text-white px-2 py-1 rounded hover:bg-orange-600">
-                    Lern More
+                  <Link
+                    href="/pages/services"
+                    className="mt-4 bg-orange-500 text-white px-2 py-1 rounded hover:bg-orange-600"
+                  >
+                    Learn More
                   </Link>
                 </div>
               </div>

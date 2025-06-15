@@ -53,7 +53,7 @@
 //       id: 1,
 //       title: "Vadodara Mumbai Expressway",
 //       description:
-//         "Independent Engineer services for Supervision of Construction of Eight lane access controlled Expressway from Km 43.000 to Km 69.800 (Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway) in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana",
+//         "Independent Engineer services for Supervision of Construction of 8 lane access controlled Expressway from Km 43.000 to Km 69.800 (Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway) in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana",
 //       image: VadodraImage,
 //     },
 //     {
@@ -355,7 +355,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 gap-6">
           {services.map((service) => {
             const Icon = service.icon;
             return (

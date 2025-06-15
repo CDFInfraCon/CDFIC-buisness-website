@@ -9,22 +9,23 @@ import AmmanFakirImage from "../../../../public/leaders/AmmanFakir.jpeg";
 
 const leadershipMembers = [
   {
-    slug: 1,
-    leaderName: "Mr. C.D Fakir",
-    position: "Honourable Chairman",
+    slug: 11,
+    leaderName: "Mr. C. D. Fakir",
+    position: "The Chairman",
     image: CDFakirImage,
     message1:
-      "At CDF Infra Con, we are not just building infrastructure; we are shaping the future of India.",
+      "Our Chairman, a former Chief Engineer of PWD Maharashtra, brings decades of expertise in engineering and infrastructure. After a distinguished government career, he now leads multiple arbitration cases, securing major wins with his sharp judgment and technical excellence. Known for his integrity, leadership, and strategic approach, he drives the company's commitment to quality, transparency, and growth.",
     message2:
-      "Our commitment to excellence in engineering consultancy and services has positioned us as a leader in the industry.",
-    message3:
-      "Every day, we challenge ourselves to redefine standards, innovate, and deliver the best to our clients.",
-    message4:
-      "As we move forward, I encourage each one of you to embrace this spirit of innovation and strive for greatness.",
-    message5: "Thank you for being a part of this incredible journey.",
+      "He is a member of Technical Advisory Committee (TAC) for Versova Bandra  Sea Link Project formed by MSRDC Mumbai (Year 2011-2014), Chairman of Institution of Engineers (India) Aurangabad Local Centre for two years. (2000-2002), Member of Disaster Management Committee formulated by IRC. (2007-2009) iii) Member of Steering Committee formulated by MSRDC (Maharashtra State), Expert Member, on Works Committee of Pravara Medical Trust Loni Dist: Ahmednagar since Year 2012, Indian Council of Arbitration Membership (MICA) No.IL/ICA/5179 Yr 2013, he Was Empanelled as  Arbitrators with IRC: 17(1) /2013, Life Member of Indian Road Congress (IRC):  (LM-8347) Yr. 1979, Empanelled as Inspecting Authority (IA) with Maulana Azad Education Foundation MAEF New Delhi with effect from January 2014, Fellow of the Institution of Engineers (India) FIE-F015922-7 Yr.2001, Member of Indian  Institution of Br. Engineering (IIBE) LF-1028 Yr. 1998, Indian Building Congress Life Member: LM-1608 Yr.2002, Indian Society of Wind Engineering     (LM-250) Yr.2002, Quality  Circle Forum of India Life Member QCFI (049903001016) Yr. 1999.",
+    message3: null,
+    // "Every day, we challenge ourselves to redefine standards, innovate, and deliver the best to our clients.",
+    message4: null,
+    // "As we move forward, I encourage each one of you to embrace this spirit of innovation and strive for greatness.",
+    // message5: "Thank you for being a part of this incredible journey.",
+    message5: null,
   },
   {
-    slug: 3,
+    slug: 12,
     leaderName: "Mr. Amer C Fakir",
     position: "Managing Director",
     image: Amer1Image,
@@ -37,7 +38,7 @@ const leadershipMembers = [
     message5: null,
   },
   {
-    slug: 4,
+    slug: 13,
     leaderName: "Mr. Amman C Fakir",
     position: "Managing Director",
     image: AmmanFakirImage,

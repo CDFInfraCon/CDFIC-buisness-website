@@ -17,7 +17,7 @@ const CounterIncrement = () => {
   useEffect(() => {
     // Calculate Glorious Years dynamically
     const currentYear = new Date().getFullYear();
-    const gloriousYears = currentYear - 2016;
+    const gloriousYears = currentYear - 2015;
 
     // Increment for "Glorious Years"
     const incrementYears = () => {
@@ -40,7 +40,7 @@ const CounterIncrement = () => {
     // Increment for "Successful Projects"
     const incrementProjects = () => {
       let start = 0;
-      const end = 170;
+      const end = 52;
       const duration = 2000;
       const incrementTime = duration / end;
 
@@ -58,7 +58,7 @@ const CounterIncrement = () => {
     // Increment for "Strong Team"
     const incrementTeam = () => {
       let start = 0;
-      const end = 2000;
+      const end = 110;
       const duration = 2000;
       const incrementTime = duration / (end / 100);
 
@@ -76,7 +76,7 @@ const CounterIncrement = () => {
     // Increment for "Offices Nationwide"
     const incrementOffices = () => {
       let start = 0;
-      const end = 38;
+      const end = 12;
       const duration = 2000;
       const incrementTime = duration / end;
 

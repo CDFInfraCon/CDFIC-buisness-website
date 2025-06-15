@@ -12,6 +12,7 @@ import MmrdaImage from "../../../../public/clients/Mmrda.webp";
 import PwaImage from "../../../../public/clients/Pwa.webp";
 import NHIDCLImage from "../../../../public/clients/NHIDCL.jpg";
 import MhTender from "../../../../public/clients/mhTender.jpg";
+import PwdImage from "../../../../public/clients/pwd.jpeg";
 
 // Clients data
 const clients = [
@@ -44,6 +45,11 @@ const clients = [
     name: "Client 6",
     logo: MhTender,
     link: "https://www.mahatenders.gov.in/nicgep/app?page=FrontEndTendersByOrganisation&service=page",
+  },
+  {
+    name: "Client 7",
+    logo: PwdImage,
+    link: "https://pwd.maharashtra.gov.in/",
   },
   // {
   //   name: "Client 1",

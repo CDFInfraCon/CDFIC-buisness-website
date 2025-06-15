@@ -10,6 +10,10 @@ import Vmeproj1 from "../../../../public/ongoing/Vmeproj1.jpeg";
 import Vmeproj2 from "../../../../public/ongoing/Vmeproj2.jpeg";
 import Vmeproj3 from "../../../../public/ongoing/Vmeproj3.jpeg";
 import Vmeproj4 from "../../../../public/ongoing/Vmeproj4.jpeg";
+import ThinWhiteTopping1 from "../../../../public/ongoing/ThinWhiteTopping1.jpeg";
+import ThinWhiteTopping2 from "../../../../public/ongoing/ThinWhiteTopping2.jpeg";
+import ThinWhiteTopping3 from "../../../../public/ongoing/ThinWhiteTopping3.jpeg";
+import ThinWhiteTopping4 from "../../../../public/ongoing/ThinWhiteTopping4.jpeg";
 import Nagar1 from "../../../../public/ongoing/Nagar1.jpeg";
 import Nagar2 from "../../../../public/ongoing/Nagar2.jpeg";
 import Nagar3 from "../../../../public/ongoing/Nagar3.jpeg";
@@ -25,6 +29,48 @@ import AmravatiChikhlisectionofNH6 from "../../../../public/completed/Amravati-C
 import PuneSolapurSectionofNH9 from "../../../../public/completed/PuneSolapurSectionofNH-9.jpg";
 import TuIjapurShingoliYedshi from "../../../../public/completed/TuIjapurShingoli&Yedshi.jpg";
 import PaudKolvanLonavalaRoad from "../../../../public/completed/PaudKolvanLonavalaRoad.jpg";
+import PaudKolvanLonavalaRoad2 from "../../../../public/completed/PaudKolvanLonavalaRoad2.jpeg";
+import MalharpethUmbrajMasurMayani1 from "../../../../public/completed/MalharpethUmbrajMasurMayani1.jpeg";
+import MalharpethUmbrajMasurMayani2 from "../../../../public/completed/MalharpethUmbrajMasurMayani2.jpeg";
+import MalharpethUmbrajMasurMayani3 from "../../../../public/completed/MalharpethUmbrajMasurMayani3.jpeg";
+import MalharpethUmbrajMasurMayani4 from "../../../../public/completed/MalharpethUmbrajMasurMayani4.jpeg";
+import MalharpethUmbrajMasurMayani5 from "../../../../public/completed/MalharpethUmbrajMasurMayani5.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km1 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km1.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km2 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km2.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km3 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km3.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km4 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km4.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km5 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km5.jpeg";
+import PanshetLonavalaRajmachiTornaSinhgad51km6 from "../../../../public/completed/PanshetLonavalaRajmachiTornaSinhgad51km6.jpeg";
+import HinjewadiChakanTalegaonRanjangaonJejuri58km1 from "../../../../public/completed/HinjewadiChakanTalegaonRanjangaonJejuri58km1.jpeg";
+import HinjewadiChakanTalegaonRanjangaonJejuri58km2 from "../../../../public/completed/HinjewadiChakanTalegaonRanjangaonJejuri58km2.jpeg";
+import HinjewadiChakanTalegaonRanjangaonJejuri58km3 from "../../../../public/completed/HinjewadiChakanTalegaonRanjangaonJejuri58km3.jpeg";
+import HinjewadiChakanTalegaonRanjangaonJejuri58km4 from "../../../../public/completed/HinjewadiChakanTalegaonRanjangaonJejuri58km4.jpeg";
+import MahabaleshwarSataraRahimatpur71km1 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km1.jpeg";
+import MahabaleshwarSataraRahimatpur71km2 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km2.jpeg";
+import MahabaleshwarSataraRahimatpur71km3 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km3.jpeg";
+import MahabaleshwarSataraRahimatpur71km4 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km4.jpeg";
+import MahabaleshwarSataraRahimatpur71km5 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km5.jpeg";
+
+import NarayanaonBypassKhedSinner1 from "../../../../public/completed/NarayanaonBypassKhedSinner1.jpeg";
+import NarayanaonBypassKhedSinner2 from "../../../../public/completed/NarayanaonBypassKhedSinner2.jpeg";
+import NarayanaonBypassKhedSinner3 from "../../../../public/completed/NarayanaonBypassKhedSinner3.jpeg";
+import NarayanaonBypassKhedSinner4 from "../../../../public/completed/NarayanaonBypassKhedSinner4.jpeg";
+import NarayanaonBypassKhedSinner5 from "../../../../public/completed/NarayanaonBypassKhedSinner5.jpeg";
+import NarayanaonBypassKhedSinner6 from "../../../../public/completed/NarayanaonBypassKhedSinner6.jpeg";
+import NarayanaonBypassKhedSinner7 from "../../../../public/completed/NarayanaonBypassKhedSinner7.jpeg";
+import VadodraMumbai103_1281 from "../../../../public/completed/VadodraMumbai103_1281.png";
+import VadodraMumbai103_1282 from "../../../../public/completed/VadodraMumbai103_1282.jpeg";
+import VadodraMumbai103_1283 from "../../../../public/completed/VadodraMumbai103_1283.jpeg";
+import VadodraMumbai103_1284 from "../../../../public/completed/VadodraMumbai103_1284.png";
+import Vme128_1541 from "../../../../public/completed/Vme128_1541.jpeg";
+import Vme128_1542 from "../../../../public/completed/Vme128_1542.jpeg";
+import Vme128_1543 from "../../../../public/completed/Vme128_1543.png";
+import Vme128_1544 from "../../../../public/completed/Vme128_1544.png";
+import Vme154_1901 from "../../../../public/completed/Vme154_1901.jpeg";
+import Vme154_1904 from "../../../../public/completed/Vme154_1904.png";
+import Vme154_1905 from "../../../../public/completed/Vme154_1905.png";
+import Vme154_1906 from "../../../../public/completed/Vme154_1906.png";
+import Vme154_1907 from "../../../../public/completed/Vme154_1907.png";
 
 const OurProjects = [
   {
@@ -97,7 +143,7 @@ const OurProjects = [
     length: "71.16 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [PaudKolvanLonavalaRoad],
+    images: [PaudKolvanLonavalaRoad, PaudKolvanLonavalaRoad2],
   },
   {
     id: 9,
@@ -106,7 +152,13 @@ const OurProjects = [
     length: "46.08 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [
+      MalharpethUmbrajMasurMayani1,
+      MalharpethUmbrajMasurMayani2,
+      MalharpethUmbrajMasurMayani3,
+      MalharpethUmbrajMasurMayani4,
+      MalharpethUmbrajMasurMayani5,
+    ],
   },
   {
     id: 10,
@@ -115,7 +167,14 @@ const OurProjects = [
     length: "51.18 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [
+      PanshetLonavalaRajmachiTornaSinhgad51km1,
+      PanshetLonavalaRajmachiTornaSinhgad51km2,
+      PanshetLonavalaRajmachiTornaSinhgad51km3,
+      PanshetLonavalaRajmachiTornaSinhgad51km4,
+      PanshetLonavalaRajmachiTornaSinhgad51km5,
+      PanshetLonavalaRajmachiTornaSinhgad51km6,
+    ],
   },
   {
     id: 11,
@@ -124,7 +183,12 @@ const OurProjects = [
     length: "58.36 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [
+      HinjewadiChakanTalegaonRanjangaonJejuri58km1,
+      HinjewadiChakanTalegaonRanjangaonJejuri58km2,
+      HinjewadiChakanTalegaonRanjangaonJejuri58km3,
+      HinjewadiChakanTalegaonRanjangaonJejuri58km4,
+    ],
   },
   {
     id: 12,
@@ -133,7 +197,13 @@ const OurProjects = [
     length: "71.78 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [
+      MahabaleshwarSataraRahimatpur71km1,
+      MahabaleshwarSataraRahimatpur71km2,
+      MahabaleshwarSataraRahimatpur71km3,
+      MahabaleshwarSataraRahimatpur71km4,
+      MahabaleshwarSataraRahimatpur71km5,
+    ],
   },
   {
     id: 13,
@@ -151,7 +221,12 @@ const OurProjects = [
     length: "24.60 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [
+      VadodraMumbai103_1281,
+      VadodraMumbai103_1282,
+      VadodraMumbai103_1283,
+      VadodraMumbai103_1284,
+    ],
   },
   {
     id: 15,
@@ -160,7 +235,7 @@ const OurProjects = [
     length: "26.60 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [Vme128_1541, Vme128_1542, Vme128_1543, Vme128_1544],
   },
   {
     id: 16,
@@ -169,7 +244,7 @@ const OurProjects = [
     length: "35.400 km.",
     client: "Roadway Solution India Infra Limited",
     category: "PMC",
-    images: [],
+    images: [Vme154_1901, Vme154_1904, Vme154_1905, Vme154_1906, Vme154_1907],
   },
   {
     id: 17,
@@ -187,7 +262,15 @@ const OurProjects = [
     length: "9.319 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [
+      NarayanaonBypassKhedSinner1,
+      NarayanaonBypassKhedSinner2,
+      NarayanaonBypassKhedSinner3,
+      NarayanaonBypassKhedSinner4,
+      NarayanaonBypassKhedSinner5,
+      NarayanaonBypassKhedSinner6,
+      NarayanaonBypassKhedSinner7,
+    ],
   },
   {
     id: 19,
@@ -246,7 +329,7 @@ const OurProjects = [
   {
     id: 25,
     status: "Ongoing",
-    name: "Independent Engineer services for Supervision of Construction of Eight lane access-controlled Expressway from Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana.",
+    name: "Independent Engineer services for Supervision of Construction of 8 lane access-controlled Expressway from Amne to Bhoj Section-SPUR of Vadodara Mumbai Expressway in the State of Maharashtra on Hybrid Annuity mode under Bharatmala Pariyojana.",
     length: "24.6 km.",
     client: "NHAI",
     category: "Authority Engineer/ Independent Engineer",
@@ -349,7 +432,12 @@ const OurProjects = [
     length: "131.900 km.",
     client: "NHAI",
     category: "Authority Engineer/ Independent Engineer",
-    images: [],
+    images: [
+      ThinWhiteTopping1,
+      ThinWhiteTopping2,
+      ThinWhiteTopping3,
+      ThinWhiteTopping4,
+    ],
   },
 ];
 
