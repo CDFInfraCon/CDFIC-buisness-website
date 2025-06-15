@@ -22,7 +22,7 @@ export default function ServicesPage() {
               key={service.id}
               className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="text-4xl mb-4" style={{color: "#0f2852"}}>{service.icon}</div>
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
               <Link

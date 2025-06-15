@@ -364,7 +364,7 @@ const Services = () => {
                 className="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105 hover:shadow-xl group"
               >
                 <div className="flex items-center mb-4">
-                  <Icon className="text-blue-600 text-4xl mr-4" />
+                  <Icon className=" text-4xl mr-4" style={{color: "#0f2852"}}/>
                   <h3 className="text-xl font-semibold text-gray-800">
                     {service.title}
                   </h3>
@@ -373,7 +373,8 @@ const Services = () => {
                 <Link
                   href={`/services/${service.id}`}
                   // href={`/services/${service.id}`}
-                  className="flex items-center text-blue-600 hover:text-blue-800 transition group"
+                  className="flex items-center hover:text-blue-800 transition group"
+                  style={{color: "#0f2852"}}
                 >
                   Learn More
                   <FaArrowRight className="ml-2 transform group-hover:translate-x-1 transition" />

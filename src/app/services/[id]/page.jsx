@@ -69,7 +69,7 @@ export default function ServiceDetails({ params }) {
         </div>
         <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
           {/* Header Section */}
-          <div className="bg-gradient-to-r from-blue-700 to-blue-900 px-8 py-16 text-white">
+          <div className="from-blue-700 to-blue-900 px-8 py-16 text-white" style={{background: "#0f2852"}}>
             <div className="flex items-center gap-6 mb-8">
               <ServiceIcon className="text-6xl opacity-90" />
               <h1 className="text-5xl font-bold">{service.title}</h1>
@@ -83,7 +83,7 @@ export default function ServiceDetails({ params }) {
           <div className="px-12 py-16">
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-semibold text-gray-800 mb-8 flex items-center">
-                <FaClipboardList className="mr-4 text-blue-700" />
+                <FaClipboardList className="mr-4 " style={{color: "#0f2852"}} />
                 Detailed Overview
               </h2>
               <p className="text-gray-700 leading-relaxed text-lg">
@@ -94,7 +94,7 @@ export default function ServiceDetails({ params }) {
             {/* Additional Info Card */}
             <div className="mt-16 bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl p-10 border border-blue-100/20 shadow-sm">
               <h3 className="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
-                <FaUsers className="mr-4 text-blue-700" />
+                <FaUsers className="mr-4 " style={{color: "#0f2852"}} />
                 Why Choose Our Service
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed">

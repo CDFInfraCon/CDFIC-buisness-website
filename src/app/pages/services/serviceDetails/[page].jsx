@@ -154,7 +154,7 @@ const ServiceDetails = ({ params }) => {
           <FaArrowLeft className="mr-2" /> Back to Services
         </Link>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center ">
           {/* Service Image */}
           <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-lg">
             {service.image ? (

@@ -127,10 +127,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className={contentClass}>
-          <div href="/" className={styles.logo}>
+        <div className={contentClass} style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)',borderRadius: '10px', padding: '60px 20px' }}>
+          {/* <div href="/" className={styles.logo}>
             <div className={styles.logoContent}></div>
-          </div>
+          </div> */}
           <h1 className={`${headingClass} animate__animated animate__bounce`}>
             {/* Engineering for */}
             Built for Generations

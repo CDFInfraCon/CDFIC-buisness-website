@@ -1,9 +1,17 @@
+"use client";
+import Link from "next/link";
 import React from "react";
+import "./footer.css";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
+const path = usePathname()
+console.log("pathpathpathpath",path)
   return (
     <>
-      <footer className="text-white body-font footer-container">
+  
+  {path !== "/pages/projects" && (
+        <footer className="text-white body-font footer-container">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -43,25 +51,31 @@ const Footer = () => {
                 SERVICES
               </h2>
               <nav className="list-none mb-10">
+
                 <li className="footer-link">
-                  <a className=" ">Supervision consultant</a>
+                  <a href={`/services/authority-engineer`}>Authority Engineer</a>        
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Project Management consultant</a>
+                  <a href={`/services/dpr`}>DPR</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Arbitration </a>
+                  <a href={`/services/maintenance`}>O&M Supervision</a>        
                 </li>
                 <li className="footer-link">
-                  <a className=" ">DPR</a>
+                  <a href={`/services/safety`}>Safety Consultant</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Operation & Maintenance</a>
+                  <a href={`/services/project-management`}>Project Management</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">Safety Consultant</a>
+                  <a href={`/services/design-engineering`}>Design Engineering</a>
                 </li>
-                
+                <li className="footer-link">
+                  <a href={`/services/Arbitration`}>Arbitration </a>
+                </li>
+             
+             
+
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -89,34 +103,36 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="footer-link">
-                  <a className=" ">Vadodara Mumbai Expressway PKG-16</a>
+                  <a href={`pages/projects`} className=" ">Vadodara Mumbai Expressway PKG-16</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">O & M Khed-Sinner</a>
+                  <a href={`pages/projects`} className=" ">O & M Khed-Sinner</a>
+                </li>
+                <li className="footer-link" >
+                  <a href={`pages/projects`} className=" ">O & M Ane-Mal-Kharwandi</a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">O & M Ane-Mal-Kharwandi</a>
-                </li>
-                <li className="footer-link">
-                  <a className=" ">
+                  <a href={`pages/projects`} className=" ">
                     Authority Engineer of White Topping (WT) Malshej Ghat
                   </a>
                 </li>
                 <li className="footer-link">
-                  <a className=" ">
+                  <a href={`pages/projects`} className=" ">
                     Authority Engineer of White Topping (WT) Khed Sinnar
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-50 tracking-widest text-lg mb-3 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#ff9f61]">
+              <Link href="/pages/contact">
+                <h2 className="title-font font-medium text-gray-50 tracking-widest text-lg mb-3 flex items-center gap-2 cursor-pointer border-b-2 border-white contact-us">
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#ff9f61]">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-.659 1.591l-7.5 7.5a2.25 2.25 0 01-3.182 0l-7.5-7.5A2.25 2.25 0 012.25 6.993V6.75" />
-                </svg>
-                Quick Inquiry
-              </h2>
-              <form className="bg-white/10 rounded-lg p-5 flex flex-col gap-4">
+                </svg> */}
+                  Contact Us
+                </h2>
+              </Link>
+              {/* <form className="bg-white/10 rounded-lg p-5 flex flex-col gap-4">
                 <input
                   type="email"
                   placeholder="Email"
@@ -135,7 +151,7 @@ const Footer = () => {
                 >
                   SUBMIT
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
@@ -217,7 +233,7 @@ const Footer = () => {
           </div>
         </div> */}
       </footer>
-
+)} 
       <div className="" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="container mx-auto px-5 py-4 flex align-middle  flex-wrap flex-row justify-between sm:flex-row">
           <p

@@ -149,7 +149,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="relative w-full mx-auto h-[60vh] md:h-[70vh] overflow-hidden rounded-xl shadow-2xl">
+    <div className="relative w-full mx-auto h-[60vh] md:h-[70vh] overflow-hidden  shadow-2xl">
       <AnimatePresence initial={false} custom={currentIndex}>
         <motion.div
           key={currentIndex}

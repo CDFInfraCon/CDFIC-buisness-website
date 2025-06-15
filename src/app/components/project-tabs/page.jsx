@@ -19,6 +19,26 @@ import Nagar2 from "../../../../public/ongoing/Nagar2.jpeg";
 import Nagar3 from "../../../../public/ongoing/Nagar3.jpeg";
 import KhedSinner1 from "../../../../public/ongoing/KhedSinner1.jpeg";
 import KhedSinner2 from "../../../../public/ongoing/KhedSinner2.jpeg";
+import Indapur1 from "../../../../public/ongoing/Indapur1.jpeg";
+import Indapur2 from "../../../../public/ongoing/Indapur2.jpeg";
+import DiveGhatMoholAlandi1 from "../../../../public/ongoing/DiveGhatMoholAlandi1.jpeg";
+import DiveGhatMoholAlandi2 from "../../../../public/ongoing/DiveGhatMoholAlandi2.jpeg";
+import PWDStatePunjab1 from "../../../../public/ongoing/PWDStatePunjab1.jpeg";
+import KarnatakaGoaBorderNH4A1 from "../../../../public/ongoing/KarnatakaGoaBorderNH4A1.jpeg";
+import KarnatakaGoaBorderNH4A2 from "../../../../public/ongoing/KarnatakaGoaBorderNH4A2.jpeg";
+import AdilabadBelasectionNH353B1 from "../../../../public/ongoing/AdilabadBelasectionNH353B1.jpeg";
+import TutjapurAusaSectionNH3611 from "../../../../public/ongoing/TutjapurAusaSectionNH3611.jpeg";
+import UnitPMUMRRDA1 from "../../../../public/ongoing/UnitPMUMRRDA1.jpeg";
+import UnitPMUMRRDA2 from "../../../../public/ongoing/UnitPMUMRRDA2.jpeg";
+import CulvertsNH61Maharashtra1 from "../../../../public/ongoing/CulvertsNH61Maharashtra1.jpeg";
+import CulvertsNH61Maharashtra2 from "../../../../public/ongoing/CulvertsNH61Maharashtra2.jpeg";
+import DelhiSaharanpurHighwayAskshardham1 from "../../../../public/completed/DelhiSaharanpurHighwayAskshardham1.jpeg";
+import DelhiSaharanpurHighwayAskshardham2 from "../../../../public/completed/DelhiSaharanpurHighwayAskshardham2.jpeg";
+import DelhiSaharanpurHighwayAskshardham3 from "../../../../public/completed/DelhiSaharanpurHighwayAskshardham3.jpeg";
+import DelhiSaharanpurHighwayAskshardham4 from "../../../../public/completed/DelhiSaharanpurHighwayAskshardham4.jpeg";
+
+
+
 import Khed2 from "../../../../public/projects/Khed2.jpeg";
 import Khed3 from "../../../../public/projects/Khed3.jpeg";
 import BadneraRoadNagzariKharda from "../../../../public/completed/O1.jpg";
@@ -50,6 +70,7 @@ import MahabaleshwarSataraRahimatpur71km2 from "../../../../public/completed/Mah
 import MahabaleshwarSataraRahimatpur71km3 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km3.jpeg";
 import MahabaleshwarSataraRahimatpur71km4 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km4.jpeg";
 import MahabaleshwarSataraRahimatpur71km5 from "../../../../public/completed/MahabaleshwarSataraRahimatpur71km5.jpeg";
+import NH707HimachalPradesh1 from "../../../../public/completed/NH707HimachalPradesh1.jpeg";
 
 import NarayanaonBypassKhedSinner1 from "../../../../public/completed/NarayanaonBypassKhedSinner1.jpeg";
 import NarayanaonBypassKhedSinner2 from "../../../../public/completed/NarayanaonBypassKhedSinner2.jpeg";
@@ -71,6 +92,11 @@ import Vme154_1904 from "../../../../public/completed/Vme154_1904.png";
 import Vme154_1905 from "../../../../public/completed/Vme154_1905.png";
 import Vme154_1906 from "../../../../public/completed/Vme154_1906.png";
 import Vme154_1907 from "../../../../public/completed/Vme154_1907.png";
+import NationalHighwaysUttarPradesh1 from "../../../../public/completed/NationalHighwaysUttarPradesh1.jpeg";
+import NH50NH60KalambBypass1 from "../../../../public/completed/NH50NH60KalambBypass1.jpeg";
+import NH52NewNH15Assam1 from "../../../../public/completed/NH52NewNH15Assam1.jpeg";
+import NH347BG753LMP1 from "../../../../public/completed/NH347BG753LMP1.jpeg";
+import NH65MaharashtraEPC1 from "../../../../public/completed/NH65MaharashtraEPC1.jpeg";
 
 const OurProjects = [
   {
@@ -212,7 +238,7 @@ const OurProjects = [
     length: "60 km.",
     client: "NHAI",
     category: "DPR",
-    images: [],
+    images: [NationalHighwaysUttarPradesh1],
   },
   {
     id: 14,
@@ -253,7 +279,7 @@ const OurProjects = [
     length: "8.634 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [NH50NH60KalambBypass1],
   },
   {
     id: 18,
@@ -279,7 +305,7 @@ const OurProjects = [
     length: "57.50 km.",
     client: "NHIDCL",
     category: "Safety Consultant",
-    images: [],
+    images: [NH52NewNH15Assam1],
   },
   {
     id: 20,
@@ -288,34 +314,16 @@ const OurProjects = [
     length: "40.40 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [NH347BG753LMP1],
   },
   {
     id: 21,
     status: "Ongoing",
-    name: "Consultancy Services for Authority’s Engineer for Supervision of construction of four laning of NH 965 G from Baramati to Indapur in the State of Maharashtra under Bharatmala Pariyojna on EPC mode.",
+    name: "Consultancy Services for Authority’s Engineer for Supervision of Construction of Four-Laning of NH 965G from Baramati to Tondale via Indapur in the State of Maharashtra under Bharatmala Pariyojna on EPC Mode (Total Length: 89.831 km)",
     length: "42.131 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
-  },
-  {
-    id: 22,
-    status: "Ongoing",
-    name: "Consultancy Services for Authority’s Engineer for Supervision of construction of four laning of NH 965 G from Indapur to Tondale in the State of Maharashtra under Bharatmala Pariyojna on EPC mode.",
-    length: "24.76 km.",
-    client: "NHAI",
-    category: "Safety Consultant",
-    images: [],
-  },
-  {
-    id: 23,
-    status: "Ongoing",
-    name: "Consultancy Services for Authority’s Engineer for Supervision of construction of four laning of NH 965 G from Indapur to Tondale in the State of Maharashtra under Bharatmala Pariyojna on EPC mode.",
-    length: "22.94 km.",
-    client: "NHAI",
-    category: "Safety Consultant",
-    images: [],
+    images: [Indapur1,Indapur2],
   },
   {
     id: 24,
@@ -324,7 +332,7 @@ const OurProjects = [
     length: "19.900 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [NH707HimachalPradesh1],
   },
   {
     id: 25,
@@ -342,7 +350,7 @@ const OurProjects = [
     length: "54.500 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [DiveGhatMoholAlandi1,DiveGhatMoholAlandi2],
   },
   {
     id: 27,
@@ -351,7 +359,7 @@ const OurProjects = [
     length: "500 km.",
     client: "MoRTH",
     category: "Safety Consultant",
-    images: [],
+    images: [PWDStatePunjab1],
   },
   {
     id: 28,
@@ -378,7 +386,7 @@ const OurProjects = [
     length: "16.645 km.",
     client: "NHAI",
     category: "DPR",
-    images: [],
+    images: [NH65MaharashtraEPC1],
   },
   {
     id: 31,
@@ -387,7 +395,7 @@ const OurProjects = [
     length: "84.120 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [KarnatakaGoaBorderNH4A1,KarnatakaGoaBorderNH4A2],
   },
   {
     id: 32,
@@ -396,7 +404,7 @@ const OurProjects = [
     length: "32.970 km.",
     client: "PWD Telangana – NH Division",
     category: "Safety Consultant",
-    images: [],
+    images: [AdilabadBelasectionNH353B1],
   },
   {
     id: 33,
@@ -405,7 +413,7 @@ const OurProjects = [
     length: "55.835 km.",
     client: "NHAI",
     category: "Safety Consultant",
-    images: [],
+    images: [TutjapurAusaSectionNH3611],
   },
   {
     id: 34,
@@ -414,7 +422,7 @@ const OurProjects = [
     length: "250 km.",
     client: "PMGSY",
     category: "DPR",
-    images: [],
+    images: [UnitPMUMRRDA1,UnitPMUMRRDA2],
   },
   {
     id: 35,
@@ -423,7 +431,7 @@ const OurProjects = [
     length: "167.700 km.",
     client: "NHAI",
     category: "Authority Engineer/ Independent Engineer",
-    images: [],
+    images: [CulvertsNH61Maharashtra1,CulvertsNH61Maharashtra2],
   },
   {
     id: 36,
@@ -437,6 +445,20 @@ const OurProjects = [
       ThinWhiteTopping2,
       ThinWhiteTopping3,
       ThinWhiteTopping4,
+    ],
+  },
+  {
+    id: 37,
+    status: "Ongoing",
+    name: "Appointment of Safety consultant for NH-709B, Pkg-I: Six lane access controlled in Delhi portion of Delhi Saharanpur Highway from Askshardham to Delhi/UP border (Ch. 0+00 to Ch. 14+750) in the State of Delhi on EPC Mode under economic corridor in phase-Iof Bharatmala Pariyojana (Length: 14.74 km.)and NH-709B, Pkg-II: Six lane access controlled in Uttar Pradesh portion of Delhi Saharanpur Highway from Delhi/UPBorder to EPC Junction (Ch. 14.750 to Ch. 31.600) in the State of Uttar Pradesh on EPC mode under Economic Corridor in Phase-I of Bharatmala Pariyojana (length: 16.85 km.) and Improvement & upgradation of Muzaffarnagar – Miranpur section of NH-709AD from km. 97.450 to km. 123.450 on EPC mode under NH(O) in the State of Uttar Pradesh (Pkg-III) (Length 26 km.) and Four lane Spur of Shamli-Muzaffarnagar connection NH-709AD (Panipat-Shamli-Muzaffarnagar) and NH-58 (Meerut – Roorkee) bypassing Muzaffarnagar Town from Ch. 0+000 to Ch. 10+157 (Length 10.157 km.).",
+    length: "10.157 km",
+    client: "NHAI",
+    category: "Authority Engineer/ Independent Engineer",
+    images: [
+      DelhiSaharanpurHighwayAskshardham1,
+      DelhiSaharanpurHighwayAskshardham2,
+      DelhiSaharanpurHighwayAskshardham3,
+      DelhiSaharanpurHighwayAskshardham4,
     ],
   },
 ];
