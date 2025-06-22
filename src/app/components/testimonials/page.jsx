@@ -64,45 +64,37 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "John Doe",
-      position: "Project Manager",
+      name: "Digvijay F. Patankar",
+      position: "Senior Pavement Specialist",
       image:
         "https://img.freepik.com/free-photo/long-shot-people-running-together-outside_23-2149033508.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
       quote:
-        "Rodic’s team executed the infrastructure project efficiently and professionally. Their commitment to quality is unparalleled.",
+        "Working with M/s CDF Infra as a Senior Pavement Specialist has been a rewarding experience, marked by technical excellence and strong project execution. Their commitment to quality, coordination, and timely decisions ensures smooth and impactful infrastructure development.",
     },
     {
-      name: "Jane Smith",
-      position: "Chief Engineer",
+      name: "Dilip Palve",
+      position: "Resident cum Highway Engineer",
       image:
         "https://img.freepik.com/free-photo/high-angle-shot-big-highway-with-multiple-roads-train-riding-through-central-road_181624-26996.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
       quote:
-        "Working with Rodic was an absolute pleasure. Their expertise and attention to detail ensured the success of our project.",
+        "Their expert team, clear communication, and systematic approach have played a vital role in the successful execution of our highway project",
     },
     {
-      name: "Mark Johnson",
-      position: "CEO",
+      name: "Gaurav Malewar",
+      position: "SQME",
       image:
         "https://img.freepik.com/free-photo/aerial-views-with-cars-streets_23-2148959679.jpg?t=st=1727331492~exp=1727335092~hmac=0f97b118da36705fb063d86e586088126d4bb5d3ae177703d7a787fa60c747c1&w=900",
       quote:
-        "Rodic’s professional services have greatly contributed to the timely completion of our road infrastructure project.",
+        "Working with M/s CDF Infra has been a professionally enriching experience, showcasing their unwavering commitment to quality and engineering excellence.",
     },
     {
-      name: "Sarah Lee",
-      position: "Civil Engineer",
+      name: "Krushandev Mahadkar",
+      position: "SQME",
       image:
         "https://img.freepik.com/free-photo/modern-tower-city-finance-skyline_1417-317.jpg?t=st=1727331542~exp=1727335142~hmac=ce42521c5549e51b40546774b7d4993719f49679de998ba82703edbc3dac8e53&w=900",
       quote:
-        "I highly recommend Rodic’s services. Their dedication and problem-solving approach ensured the success of our project.",
-    },
-    {
-      name: "Michael Davis",
-      position: "Site Supervisor",
-      image:
-        "https://img.freepik.com/free-photo/aerial-view-traffic-roundabout-highway-night_335224-697.jpg?ga=GA1.1.882660512.1723693951&semt=ais_hybrid",
-      quote:
-        "The collaboration with Rodic was smooth and efficient. Their team brought the best practices to every stage of the project.",
-    },
+        "M/s CDF Infra’s professionalism and commitment to engineering excellence are evident in every phase of the project.",
+    }
   ];
 
   return (

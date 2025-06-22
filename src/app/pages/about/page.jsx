@@ -238,8 +238,10 @@ import CounterIncrement from "@/app/components/counter-increment/page";
 import Image from "next/image";
 import OurClients from "@/app/components/our-clients/page";
 import AboutImage from "../../../../public/about/AboutUs.jpg";
+import AboutUDM from "../../../../public/about/AboutUDM.jpeg";
 
-// component
+
+
 const About = () => {
   return (
     <>
@@ -260,10 +262,10 @@ const About = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               className="rounded object-cover object-center w-full h-80"
-              src={AboutImage}
+              // src={AboutImage}
+              src={AboutUDM}
               alt="hero"
               width={600}
-              height={400}
               layout="responsive"
             />
           </div>
@@ -283,11 +285,6 @@ const About = () => {
               owned company, CDF has struggled pretty hard on reaching such a
               benchmarked standard since our incorporation
             </p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Learn More
-              </button>
-            </div>
           </div>
         </div>
       </section>

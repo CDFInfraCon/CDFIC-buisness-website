@@ -133,11 +133,13 @@ console.log("pathpathpathpath",path)
                 </h2>
               </a> */}
               <nav className="list-none">
-              <li className="footer-link">
+              {/* <li className="footer-link"> */}
                   <a href="/pages/contact" className=" ">
+                  <h2 className="title-font font-medium text-gray-50 tracking-widest text-lg mb-3">
                   Contact Us
+                  </h2>
                   </a>
-                </li>
+                {/* </li> */}
               </nav>
               {/* <form className="bg-white/10 rounded-lg p-5 flex flex-col gap-4">
                 <input
