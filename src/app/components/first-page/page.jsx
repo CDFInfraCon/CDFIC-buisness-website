@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import styles from "../../../../styles/Navbar.module.css";
+import CDFPvt2 from "../../../../assets/logos/CDFPvt2.png"
+import CDFIC12 from "../../../../assets/logos/CDFIC12-removebg-preview.png"
+import CDFPvt1 from "../../../../assets/logos/logocdfic-removebg-preview.png"
 
 const Hero = () => {
   const [mounted, setMounted] = useState(false);
@@ -133,6 +136,7 @@ const Hero = () => {
           {/* <div href="/" className={styles.logo}>
             <div className={styles.logoContent}></div>
           </div> */}
+          <Image src={CDFIC12} style={{height:"150px", width:"200px"}} />
           <h1 className={`${headingClass} animate__animated animate__bounce`}>
             {/* Engineering for */}
             Built for Generations
