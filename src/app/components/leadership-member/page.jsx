@@ -39,7 +39,7 @@ const leadershipMembers = [
   },
   {
     slug: 13,
-    leaderName: "Mr. Amman C Fakir",
+    leaderName: "Mr. Amman C. Fakir.",
     position: "Managing Director",
     image: AmmanFakirImage,
     message1:

@@ -460,7 +460,7 @@ const OurProjects = [
       DelhiSaharanpurHighwayAskshardham3,
       DelhiSaharanpurHighwayAskshardham4,
     ],
-  },
+  }
 ];
 
 const ProjectTabs = ({}) => {

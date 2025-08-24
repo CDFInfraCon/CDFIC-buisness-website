@@ -108,10 +108,10 @@ const Contact = () => {
               <div className="flex items-center gap-6">
                 <BsEnvelopeArrowDown className="text-3xl" />
                 <a
-                  href="mailto:info.cdfic@gmail.com"
+                  href="mailto:info@cdfic.com"
                   className="text-blue-500 hover:underline"
                 >
-                  info.cdfic@gmail.com
+                  info@cdfic.com
                 </a>
               </div>
 

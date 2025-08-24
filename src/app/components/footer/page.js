@@ -41,7 +41,7 @@ console.log("pathpathpathpath",path)
             <br />
             <p className="mt-2 text-sm text-white">+91 20486 30099</p>
             <br />
-            <p className="mt-2 text-sm text-white">info.cdfic@gmail.com</p>
+            <p className="mt-2 text-sm text-white">info@cdfic.com</p>
             <br />
             <p className="mt-2 text-sm text-white">hr.cdficpl@gmail.com</p>
           </div>

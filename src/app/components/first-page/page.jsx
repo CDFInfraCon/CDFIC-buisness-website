@@ -21,7 +21,7 @@ const Hero = () => {
     "/videos/khedCrop.mp4",
     // "/videos/herosectionvideo1.mp4",
     "/videos/herosection_new_part1.mp4",
-    "/videos/herosection_new_part1.mp4",
+    // "/videos/herosection_new_part1.mp4",
     "/videos/herosection_new_part1.mp4"
   ];
 
@@ -136,7 +136,7 @@ const Hero = () => {
           {/* <div href="/" className={styles.logo}>
             <div className={styles.logoContent}></div>
           </div> */}
-          <Image src={CDFIC12} style={{height:"150px", width:"200px"}} />
+          {/* <Image src={CDFIC12} style={{height:"150px", width:"200px"}} /> */}
           <h1 className={`${headingClass} animate__animated animate__bounce`}>
             {/* Engineering for */}
             Built for Generations
